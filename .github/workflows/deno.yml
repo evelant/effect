@@ -18,6 +18,5 @@ jobs:
       - uses: denoland/setup-deno@v1
         with:
           deno-version: v1.x
-      - run: |
-        rm package.json
-        deno task test
+      - name: run tests
+        run: rm package.json && deno task test
