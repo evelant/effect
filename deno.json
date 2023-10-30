@@ -4,11 +4,12 @@
     "test": "deno test --allow-read --parallel"
   },
   "imports": {
+    "fast-check": "npm:fast-check",
+    "vitest": "./test/utils/denoVitestPolyfill.ts",
     "effect": "./src/index.ts",
     "effect/internal/": "./src/internal/",
     "effect-test/": "./test/",
     "effect-test/util": "./test/util.ts",
-    "vitest": "./test/utils/denoVitestPolyfill.ts",
     "effect/BigDecimal": "./src/BigDecimal.ts",
     "effect/BigInt": "./src/BigInt.ts",
     "effect/Boolean": "./src/Boolean.ts",
