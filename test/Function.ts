@@ -1,4 +1,4 @@
-import { deepStrictEqual, double } from "effect-test/util"
+import { deepStrictEqual, double } from "effect-test/util.ts"
 import * as Function from "effect/Function"
 import * as String from "effect/String"
 import { assert, describe, expect, it } from "vitest"

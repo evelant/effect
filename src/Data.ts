@@ -1,14 +1,14 @@
 /**
  * @since 2.0.0
  */
-import type * as Channel from "./Channel"
-import * as Effect from "./Effect"
-import * as Effectable from "./Effectable"
-import type * as Equal from "./Equal"
-import * as internal from "./internal/Data"
-import { type Pipeable } from "./Pipeable"
-import type * as Sink from "./Sink"
-import type * as Types from "./Types"
+import type * as Channel from "./Channel.ts"
+import * as Effect from "./Effect.ts"
+import * as Effectable from "./Effectable.ts"
+import type * as Equal from "./Equal.ts"
+import * as internal from "./internal/Data.ts"
+import { type Pipeable } from "./Pipeable.ts"
+import type * as Sink from "./Sink.ts"
+import type * as Types from "./Types.ts"
 
 /**
  * @category models

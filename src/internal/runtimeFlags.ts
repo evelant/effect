@@ -1,8 +1,8 @@
-import * as Differ from "../Differ"
-import { dual } from "../Function"
-import * as runtimeFlagsPatch from "../internal/runtimeFlagsPatch"
-import type * as RuntimeFlags from "../RuntimeFlags"
-import type * as RuntimeFlagsPatch from "../RuntimeFlagsPatch"
+import * as Differ from "../Differ.ts"
+import { dual } from "../Function.ts"
+import * as runtimeFlagsPatch from "../internal/runtimeFlagsPatch.ts"
+import type * as RuntimeFlags from "../RuntimeFlags.ts"
+import type * as RuntimeFlagsPatch from "../RuntimeFlagsPatch.ts"
 
 /** @internal */
 export const None: RuntimeFlags.RuntimeFlag = 0 as RuntimeFlags.RuntimeFlag

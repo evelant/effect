@@ -1,4 +1,4 @@
-import { assertFalse, assertTrue, deepStrictEqual } from "effect-test/util"
+import { assertFalse, assertTrue, deepStrictEqual } from "effect-test/util.ts"
 import * as BD from "effect/BigDecimal"
 import * as Option from "effect/Option"
 import { assert, describe, it } from "vitest"

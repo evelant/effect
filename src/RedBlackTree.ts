@@ -1,14 +1,14 @@
 /**
  * @since 2.0.0
  */
-import type { Chunk } from "./Chunk"
-import type { Equal } from "./Equal"
-import type { Inspectable } from "./Inspectable"
-import * as RBT from "./internal/RedBlackTree"
-import * as RBTI from "./internal/RedBlackTree/iterator"
-import type { Option } from "./Option"
-import type { Order } from "./Order"
-import type { Pipeable } from "./Pipeable"
+import type { Chunk } from "./Chunk.ts"
+import type { Equal } from "./Equal.ts"
+import type { Inspectable } from "./Inspectable.ts"
+import * as RBT from "./internal/RedBlackTree.ts"
+import * as RBTI from "./internal/RedBlackTree/iterator.ts"
+import type { Option } from "./Option.ts"
+import type { Order } from "./Order.ts"
+import type { Pipeable } from "./Pipeable.ts"
 
 const TypeId: unique symbol = RBT.RedBlackTreeTypeId as TypeId
 

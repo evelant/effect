@@ -1,6 +1,6 @@
-import type * as MergeStrategy from "../../ChannelMergeStrategy"
-import { dual } from "../../Function"
-import * as OpCodes from "../opCodes/channelMergeStrategy"
+import type * as MergeStrategy from "../../ChannelMergeStrategy.ts"
+import { dual } from "../../Function.ts"
+import * as OpCodes from "../opCodes/channelMergeStrategy.ts"
 
 /** @internal */
 const MergeStrategySymbolKey = "effect/ChannelMergeStrategy"

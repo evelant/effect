@@ -1,4 +1,4 @@
-import { assertType } from "effect-test/utils/types"
+import { assertType } from "effect-test/utils/types.ts"
 import * as E from "effect/Either"
 import { pipe } from "effect/Function"
 import * as M from "effect/Match"

@@ -1,10 +1,10 @@
-import { equals } from "../../Equal"
-import type { HashMap } from "../../HashMap"
-import { arraySpliceIn, arraySpliceOut, arrayUpdate } from "../../internal/HashMap/array"
-import { fromBitmap, hashFragment, toBitmap } from "../../internal/HashMap/bitwise"
-import { MAX_INDEX_NODE, MIN_ARRAY_NODE, SIZE } from "../../internal/HashMap/config"
-import { Stack } from "../../internal/Stack"
-import * as O from "../../Option"
+import { equals } from "../../Equal.ts"
+import type { HashMap } from "../../HashMap.ts"
+import { arraySpliceIn, arraySpliceOut, arrayUpdate } from "../../internal/HashMap/array.ts"
+import { fromBitmap, hashFragment, toBitmap } from "../../internal/HashMap/bitwise.ts"
+import { MAX_INDEX_NODE, MIN_ARRAY_NODE, SIZE } from "../../internal/HashMap/config.ts"
+import { Stack } from "../../internal/Stack.ts"
+import * as O from "../../Option.ts"
 
 /** @internal */
 export type Node<K, V> =

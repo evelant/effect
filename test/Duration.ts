@@ -1,4 +1,4 @@
-import { deepStrictEqual } from "effect-test/util"
+import { deepStrictEqual } from "effect-test/util.ts"
 import * as Duration from "effect/Duration"
 import * as Equal from "effect/Equal"
 import { pipe } from "effect/Function"

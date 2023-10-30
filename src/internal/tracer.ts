@@ -1,12 +1,12 @@
 /**
  * @since 2.0.0
  */
-import * as Context from "../Context"
-import type * as Exit from "../Exit"
-import { globalValue } from "../GlobalValue"
-import * as MutableRef from "../MutableRef"
-import type * as Option from "../Option"
-import type * as Tracer from "../Tracer"
+import * as Context from "../Context.ts"
+import type * as Exit from "../Exit.ts"
+import { globalValue } from "../GlobalValue.ts"
+import * as MutableRef from "../MutableRef.ts"
+import type * as Option from "../Option.ts"
+import type * as Tracer from "../Tracer.ts"
 
 /** @internal */
 export const TracerTypeId: Tracer.TracerTypeId = Symbol.for("effect/Tracer") as Tracer.TracerTypeId

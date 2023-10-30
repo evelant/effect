@@ -1,12 +1,12 @@
 /**
  * @since 2.0.0
  */
-import type * as Effect from "./Effect"
-import * as circular from "./internal/effect/circular"
-import * as ref from "./internal/ref"
-import * as internal from "./internal/synchronizedRef"
-import type * as Option from "./Option"
-import type * as Ref from "./Ref"
+import type * as Effect from "./Effect.ts"
+import * as circular from "./internal/effect/circular.ts"
+import * as ref from "./internal/ref.ts"
+import * as internal from "./internal/synchronizedRef.ts"
+import type * as Option from "./Option.ts"
+import type * as Ref from "./Ref.ts"
 
 /**
  * @since 2.0.0

@@ -2,8 +2,8 @@
  * @since 2.0.0
  */
 
-import { pipeArguments } from "./Pipeable"
-import * as Stream from "./Stream"
+import { pipeArguments } from "./Pipeable.ts"
+import * as Stream from "./Stream.ts"
 
 const streamVariance = {
   _R: (_: never) => _,

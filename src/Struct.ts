@@ -4,10 +4,10 @@
  * @since 2.0.0
  */
 
-import * as Equivalence from "./Equivalence"
-import { dual } from "./Function"
-import * as order from "./Order"
-import type { Simplify } from "./Types"
+import * as Equivalence from "./Equivalence.ts"
+import { dual } from "./Function.ts"
+import * as order from "./Order.ts"
+import type { Simplify } from "./Types.ts"
 
 /**
  * Create a new object by picking properties of an existing object.

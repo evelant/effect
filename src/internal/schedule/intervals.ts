@@ -1,8 +1,8 @@
-import * as Chunk from "../../Chunk"
-import { dual, pipe } from "../../Function"
-import * as Option from "../../Option"
-import * as Interval from "../../ScheduleInterval"
-import type * as Intervals from "../../ScheduleIntervals"
+import * as Chunk from "../../Chunk.ts"
+import { dual, pipe } from "../../Function.ts"
+import * as Option from "../../Option.ts"
+import * as Interval from "../../ScheduleInterval.ts"
+import type * as Intervals from "../../ScheduleIntervals.ts"
 
 /** @internal */
 const IntervalsSymbolKey = "effect/ScheduleIntervals"

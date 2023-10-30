@@ -1,10 +1,10 @@
 /**
  * @since 2.0.0
  */
-import type * as Equal from "./Equal"
-import type * as FiberId from "./FiberId"
-import * as internal from "./internal/fiberStatus"
-import type * as RuntimeFlags from "./RuntimeFlags"
+import type * as Equal from "./Equal.ts"
+import type * as FiberId from "./FiberId.ts"
+import * as internal from "./internal/fiberStatus.ts"
+import type * as RuntimeFlags from "./RuntimeFlags.ts"
 
 /**
  * @since 2.0.0

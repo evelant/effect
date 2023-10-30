@@ -1,6 +1,6 @@
-import type * as ChildExecutorDecision from "../../ChannelChildExecutorDecision"
-import { dual } from "../../Function"
-import * as OpCodes from "../opCodes/channelChildExecutorDecision"
+import type * as ChildExecutorDecision from "../../ChannelChildExecutorDecision.ts"
+import { dual } from "../../Function.ts"
+import * as OpCodes from "../opCodes/channelChildExecutorDecision.ts"
 
 /** @internal */
 const ChildExecutorDecisionSymbolKey = "effect/ChannelChildExecutorDecision"

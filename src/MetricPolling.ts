@@ -1,13 +1,13 @@
 /**
  * @since 2.0.0
  */
-import type * as Effect from "./Effect"
-import type * as Fiber from "./Fiber"
-import * as internal from "./internal/metric/polling"
-import type * as Metric from "./Metric"
-import type { Pipeable } from "./Pipeable"
-import type * as Schedule from "./Schedule"
-import type * as Scope from "./Scope"
+import type * as Effect from "./Effect.ts"
+import type * as Fiber from "./Fiber.ts"
+import * as internal from "./internal/metric/polling.ts"
+import type * as Metric from "./Metric.ts"
+import type { Pipeable } from "./Pipeable.ts"
+import type * as Schedule from "./Schedule.ts"
+import type * as Scope from "./Scope.ts"
 
 /**
  * @since 2.0.0

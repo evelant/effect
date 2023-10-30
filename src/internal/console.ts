@@ -1,13 +1,13 @@
-import type * as Console from "../Console"
-import * as Context from "../Context"
-import type * as Effect from "../Effect"
-import { dual } from "../Function"
-import * as core from "../internal/core"
-import * as defaultServices from "../internal/defaultServices"
-import * as defaultConsole from "../internal/defaultServices/console"
-import * as fiberRuntime from "../internal/fiberRuntime"
-import * as layer from "../internal/layer"
-import type * as Layer from "../Layer"
+import type * as Console from "../Console.ts"
+import * as Context from "../Context.ts"
+import type * as Effect from "../Effect.ts"
+import { dual } from "../Function.ts"
+import * as core from "../internal/core.ts"
+import * as defaultServices from "../internal/defaultServices.ts"
+import * as defaultConsole from "../internal/defaultServices/console.ts"
+import * as fiberRuntime from "../internal/fiberRuntime.ts"
+import * as layer from "../internal/layer.ts"
+import type * as Layer from "../Layer.ts"
 
 /** @internal */
 export const console: Effect.Effect<never, never, Console.Console> = core.map(

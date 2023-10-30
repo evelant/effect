@@ -1,12 +1,12 @@
 /**
  * @since 2.0.0
  */
-import type * as HashSet from "./HashSet"
-import * as internal from "./internal/metric/registry"
-import type * as MetricHook from "./MetricHook"
-import type * as MetricKey from "./MetricKey"
-import type * as MetricKeyType from "./MetricKeyType"
-import type * as MetricPair from "./MetricPair"
+import type * as HashSet from "./HashSet.ts"
+import * as internal from "./internal/metric/registry.ts"
+import type * as MetricHook from "./MetricHook.ts"
+import type * as MetricKey from "./MetricKey.ts"
+import type * as MetricKeyType from "./MetricKeyType.ts"
+import type * as MetricPair from "./MetricPair.ts"
 
 /**
  * @since 2.0.0

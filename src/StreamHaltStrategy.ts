@@ -1,7 +1,7 @@
 /**
  * @since 2.0.0
  */
-import * as internal from "./internal/stream/haltStrategy"
+import * as internal from "./internal/stream/haltStrategy.ts"
 
 /**
  * @since 2.0.0

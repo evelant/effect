@@ -1,6 +1,6 @@
-import type * as Console from "../../Console"
-import * as Context from "../../Context"
-import * as core from "../../internal/core"
+import type * as Console from "../../Console.ts"
+import * as Context from "../../Context.ts"
+import * as core from "../../internal/core.ts"
 
 /** @internal */
 export const TypeId: Console.TypeId = Symbol.for("effect/Console") as Console.TypeId
@@ -69,7 +69,7 @@ export const defaultConsole: Console.Console = {
   },
   table(tabularData, properties) {
     return core.sync(() => {
-      console.table(tabularData, properties)
+      console.table(tabularData, properties as any)
     })
   },
   time(label) {

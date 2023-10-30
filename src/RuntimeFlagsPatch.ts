@@ -1,9 +1,9 @@
 /**
  * @since 2.0.0
  */
-import * as runtimeFlags from "./internal/runtimeFlags"
-import * as internal from "./internal/runtimeFlagsPatch"
-import type * as RuntimeFlags from "./RuntimeFlags"
+import * as runtimeFlags from "./internal/runtimeFlags.ts"
+import * as internal from "./internal/runtimeFlagsPatch.ts"
+import type * as RuntimeFlags from "./RuntimeFlags.ts"
 
 /**
  * @since 2.0.0

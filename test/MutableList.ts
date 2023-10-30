@@ -1,4 +1,4 @@
-import { deepStrictEqual, strictEqual } from "effect-test/util"
+import { deepStrictEqual, strictEqual } from "effect-test/util.ts"
 import { pipe } from "effect/Function"
 import * as MutableList from "effect/MutableList"
 import { inspect } from "node:util"

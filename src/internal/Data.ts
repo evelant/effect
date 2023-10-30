@@ -1,7 +1,7 @@
-import type * as Data from "../Data"
-import * as Equal from "../Equal"
-import * as Hash from "../Hash"
-import type * as Types from "../Types"
+import type * as Data from "../Data.ts"
+import * as Equal from "../Equal.ts"
+import * as Hash from "../Hash.ts"
+import type * as Types from "../Types.ts"
 
 /** @internal */
 export const ArrayProto: Equal.Equal = Object.assign(Object.create(Array.prototype), {

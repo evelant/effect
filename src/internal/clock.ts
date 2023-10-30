@@ -1,11 +1,11 @@
-import type * as Clock from "../Clock"
-import * as Context from "../Context"
-import * as Duration from "../Duration"
-import type * as Effect from "../Effect"
-import * as Either from "../Either"
-import { constFalse } from "../Function"
-import * as core from "./core"
-import * as timeout from "./timeout"
+import type * as Clock from "../Clock.ts"
+import * as Context from "../Context.ts"
+import * as Duration from "../Duration.ts"
+import type * as Effect from "../Effect.ts"
+import * as Either from "../Either.ts"
+import { constFalse } from "../Function.ts"
+import * as core from "./core.ts"
+import * as timeout from "./timeout.ts"
 
 /** @internal */
 const ClockSymbolKey = "effect/Clock"
@@ -53,6 +53,7 @@ const performanceNowNanos = (function() {
 
   return () => origin + BigInt(Math.round(performance.now() * 1_000_000))
 })()
+declare const process: any
 const processOrPerformanceNow = (function() {
   const processHrtime =
     typeof process === "object" && "hrtime" in process && typeof process.hrtime.bigint === "function" ?

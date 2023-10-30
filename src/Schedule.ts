@@ -1,19 +1,19 @@
 /**
  * @since 2.0.0
  */
-import type * as Cause from "./Cause"
-import type * as Chunk from "./Chunk"
-import type * as Context from "./Context"
-import type * as Duration from "./Duration"
-import type * as Effect from "./Effect"
-import type * as Either from "./Either"
-import type { LazyArg } from "./Function"
-import * as internal from "./internal/schedule"
-import type * as Option from "./Option"
-import type { Pipeable } from "./Pipeable"
-import type { Predicate } from "./Predicate"
-import type * as ScheduleDecision from "./ScheduleDecision"
-import type * as Intervals from "./ScheduleIntervals"
+import type * as Cause from "./Cause.ts"
+import type * as Chunk from "./Chunk.ts"
+import type * as Context from "./Context.ts"
+import type * as Duration from "./Duration.ts"
+import type * as Effect from "./Effect.ts"
+import type * as Either from "./Either.ts"
+import type { LazyArg } from "./Function.ts"
+import * as internal from "./internal/schedule.ts"
+import type * as Option from "./Option.ts"
+import type { Pipeable } from "./Pipeable.ts"
+import type { Predicate } from "./Predicate.ts"
+import type * as ScheduleDecision from "./ScheduleDecision.ts"
+import type * as Intervals from "./ScheduleIntervals.ts"
 
 /**
  * @since 2.0.0

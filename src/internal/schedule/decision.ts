@@ -1,7 +1,7 @@
-import * as Chunk from "../../Chunk"
-import type * as ScheduleDecision from "../../ScheduleDecision"
-import type * as Interval from "../../ScheduleInterval"
-import * as Intervals from "../../ScheduleIntervals"
+import * as Chunk from "../../Chunk.ts"
+import type * as ScheduleDecision from "../../ScheduleDecision.ts"
+import type * as Interval from "../../ScheduleInterval.ts"
+import * as Intervals from "../../ScheduleIntervals.ts"
 
 /** @internal */
 export const OP_CONTINUE = "Continue" as const

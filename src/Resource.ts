@@ -1,12 +1,12 @@
 /**
  * @since 2.0.0
  */
-import type * as Effect from "./Effect"
-import type * as Exit from "./Exit"
-import * as internal from "./internal/resource"
-import type * as Schedule from "./Schedule"
-import type * as Scope from "./Scope"
-import type * as ScopedRef from "./ScopedRef"
+import type * as Effect from "./Effect.ts"
+import type * as Exit from "./Exit.ts"
+import * as internal from "./internal/resource.ts"
+import type * as Schedule from "./Schedule.ts"
+import type * as Scope from "./Scope.ts"
+import type * as ScopedRef from "./ScopedRef.ts"
 
 /**
  * @since 2.0.0

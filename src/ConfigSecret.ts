@@ -1,9 +1,9 @@
 /**
  * @since 2.0.0
  */
-import type * as Chunk from "./Chunk"
-import type * as Equal from "./Equal"
-import * as internal from "./internal/configSecret"
+import type * as Chunk from "./Chunk.ts"
+import type * as Equal from "./Equal.ts"
+import * as internal from "./internal/configSecret.ts"
 
 /**
  * @since 2.0.0

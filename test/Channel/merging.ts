@@ -1,4 +1,4 @@
-import * as it from "effect-test/utils/extend"
+import * as it from "effect-test/utils/extend.ts"
 import * as Cause from "effect/Cause"
 import * as Channel from "effect/Channel"
 import * as MergeDecision from "effect/ChannelMergeDecision"

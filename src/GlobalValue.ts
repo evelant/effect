@@ -1,4 +1,4 @@
-import { moduleVersion } from "./internal/version"
+import { moduleVersion } from "./internal/version.ts"
 
 /**
  * @since 2.0.0

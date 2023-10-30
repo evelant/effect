@@ -1,11 +1,11 @@
 /**
  * @since 2.0.0
  */
-import * as Equal from "./Equal"
-import * as Dual from "./Function"
-import { type Inspectable, NodeInspectSymbol, toJSON, toString } from "./Inspectable"
-import type { Pipeable } from "./Pipeable"
-import { pipeArguments } from "./Pipeable"
+import * as Equal from "./Equal.ts"
+import * as Dual from "./Function.ts"
+import { type Inspectable, NodeInspectSymbol, toJSON, toString } from "./Inspectable.ts"
+import type { Pipeable } from "./Pipeable.ts"
+import { pipeArguments } from "./Pipeable.ts"
 
 const TypeId: unique symbol = Symbol.for("effect/MutableRef") as TypeId
 

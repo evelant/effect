@@ -1,9 +1,9 @@
 /**
  * @since 2.0.0
  */
-import * as internal from "./internal/schedule/decision"
-import type * as Interval from "./ScheduleInterval"
-import type * as Intervals from "./ScheduleIntervals"
+import * as internal from "./internal/schedule/decision.ts"
+import type * as Interval from "./ScheduleInterval.ts"
+import type * as Intervals from "./ScheduleIntervals.ts"
 
 /**
  * @since 2.0.0

@@ -1,6 +1,6 @@
-import type * as Exit from "../../../Exit"
-import * as OpCodes from "../../../internal/stm/opCodes/tryCommit"
-import type * as Journal from "../../../internal/stm/stm/journal"
+import type * as Exit from "../../../Exit.ts"
+import * as OpCodes from "../../../internal/stm/opCodes/tryCommit.ts"
+import type * as Journal from "../../../internal/stm/stm/journal.ts"
 
 /** @internal */
 export type TryCommit<E, A> = Done<E, A> | Suspend

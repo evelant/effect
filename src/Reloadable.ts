@@ -1,12 +1,12 @@
 /**
  * @since 2.0.0
  */
-import type * as Context from "./Context"
-import type * as Effect from "./Effect"
-import * as internal from "./internal/reloadable"
-import type * as Layer from "./Layer"
-import type * as Schedule from "./Schedule"
-import type * as ScopedRef from "./ScopedRef"
+import type * as Context from "./Context.ts"
+import type * as Effect from "./Effect.ts"
+import * as internal from "./internal/reloadable.ts"
+import type * as Layer from "./Layer.ts"
+import type * as Schedule from "./Schedule.ts"
+import type * as ScopedRef from "./ScopedRef.ts"
 
 /**
  * @since 2.0.0

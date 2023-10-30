@@ -1,8 +1,8 @@
-import type * as Cause from "../../Cause"
-import type * as Channel from "../../Channel"
-import type * as Effect from "../../Effect"
-import * as Exit from "../../Exit"
-import * as OpCodes from "../opCodes/continuation"
+import type * as Cause from "../../Cause.ts"
+import type * as Channel from "../../Channel.ts"
+import type * as Effect from "../../Effect.ts"
+import * as Exit from "../../Exit.ts"
+import * as OpCodes from "../opCodes/continuation.ts"
 
 /** @internal */
 export const ContinuationTypeId = Symbol.for("effect/ChannelContinuation")

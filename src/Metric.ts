@@ -1,21 +1,21 @@
 /**
  * @since 2.0.0
  */
-import type * as Chunk from "./Chunk"
-import type * as Duration from "./Duration"
-import type * as Effect from "./Effect"
-import type { LazyArg } from "./Function"
-import type * as HashSet from "./HashSet"
-import * as fiberRuntime from "./internal/fiberRuntime"
-import * as internal from "./internal/metric"
-import type * as MetricBoundaries from "./MetricBoundaries"
-import type * as MetricKey from "./MetricKey"
-import type * as MetricKeyType from "./MetricKeyType"
-import type * as MetricLabel from "./MetricLabel"
-import type * as MetricPair from "./MetricPair"
-import type * as MetricRegistry from "./MetricRegistry"
-import type * as MetricState from "./MetricState"
-import type { Pipeable } from "./Pipeable"
+import type * as Chunk from "./Chunk.ts"
+import type * as Duration from "./Duration.ts"
+import type * as Effect from "./Effect.ts"
+import type { LazyArg } from "./Function.ts"
+import type * as HashSet from "./HashSet.ts"
+import * as fiberRuntime from "./internal/fiberRuntime.ts"
+import * as internal from "./internal/metric.ts"
+import type * as MetricBoundaries from "./MetricBoundaries.ts"
+import type * as MetricKey from "./MetricKey.ts"
+import type * as MetricKeyType from "./MetricKeyType.ts"
+import type * as MetricLabel from "./MetricLabel.ts"
+import type * as MetricPair from "./MetricPair.ts"
+import type * as MetricRegistry from "./MetricRegistry.ts"
+import type * as MetricState from "./MetricState.ts"
+import type { Pipeable } from "./Pipeable.ts"
 
 /**
  * @since 2.0.0

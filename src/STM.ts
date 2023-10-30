@@ -1,20 +1,20 @@
 /**
  * @since 2.0.0
  */
-import * as Cause from "./Cause"
-import * as Chunk from "./Chunk"
-import type * as Context from "./Context"
-import type * as Effect from "./Effect"
-import type * as Either from "./Either"
-import type * as FiberId from "./FiberId"
-import type { LazyArg } from "./Function"
-import type { TypeLambda } from "./HKT"
-import * as core from "./internal/stm/core"
-import * as stm from "./internal/stm/stm"
-import type * as Option from "./Option"
-import type { Pipeable } from "./Pipeable"
-import type { Predicate, Refinement } from "./Predicate"
-import type * as Unify from "./Unify"
+import * as Cause from "./Cause.ts"
+import * as Chunk from "./Chunk.ts"
+import type * as Context from "./Context.ts"
+import type * as Effect from "./Effect.ts"
+import type * as Either from "./Either.ts"
+import type * as FiberId from "./FiberId.ts"
+import type { LazyArg } from "./Function.ts"
+import type { TypeLambda } from "./HKT.ts"
+import * as core from "./internal/stm/core.ts"
+import * as stm from "./internal/stm/stm.ts"
+import type * as Option from "./Option.ts"
+import type { Pipeable } from "./Pipeable.ts"
+import type { Predicate, Refinement } from "./Predicate.ts"
+import type * as Unify from "./Unify.ts"
 
 /**
  * @since 2.0.0
@@ -99,7 +99,7 @@ export interface STMTypeLambda extends TypeLambda {
  * @since 2.0.0
  * @category models
  */
-declare module "./Context" {
+declare module "./Context.ts" {
   interface Tag<Identifier, Service> extends STM<Identifier, never, Service> {}
 }
 
@@ -107,7 +107,7 @@ declare module "./Context" {
  * @since 2.0.0
  * @category models
  */
-declare module "./Either" {
+declare module "./Either.ts" {
   interface Left<E, A> extends STM<never, E, A> {
     readonly _tag: "Left"
   }
@@ -120,7 +120,7 @@ declare module "./Either" {
  * @since 2.0.0
  * @category models
  */
-declare module "./Option" {
+declare module "./Option.ts" {
   interface None<A> extends STM<never, Cause.NoSuchElementException, A> {
     readonly _tag: "None"
   }

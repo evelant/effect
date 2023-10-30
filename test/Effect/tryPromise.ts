@@ -1,6 +1,6 @@
 import * as Effect from "effect/Effect"
 import * as Either from "effect/Either"
-import * as timeout from "effect/internal/timeout"
+import * as timeout from "effect/internal/timeout.ts"
 import { describe, expect, it } from "vitest"
 
 describe.concurrent("Effect", () => {
@@ -45,11 +45,13 @@ describe.concurrent("Effect", () => {
   it("tryPromise - success, no catch, AbortSignal", async () => {
     let aborted = false
     const effect = Effect.tryPromise<void>((signal) => {
+      let handle: any
       signal.addEventListener("abort", () => {
+        timeout.clear(handle)
         aborted = true
       })
       return new Promise((resolve) => {
-        timeout.set(() => {
+        handle = timeout.set(() => {
           resolve()
         }, 100)
       })
@@ -66,11 +68,13 @@ describe.concurrent("Effect", () => {
     let aborted = false
     const effect = Effect.tryPromise<void, Error>({
       try: (signal) => {
+        let handle: any
         signal.addEventListener("abort", () => {
+          timeout.clear(handle)
           aborted = true
         })
         return new Promise((resolve) => {
-          timeout.set(() => {
+          handle = timeout.set(() => {
             resolve()
           }, 100)
         })

@@ -1,5 +1,5 @@
-import { chunkCoordination } from "effect-test/utils/coordination"
-import * as it from "effect-test/utils/extend"
+import { chunkCoordination } from "effect-test/utils/coordination.ts"
+import * as it from "effect-test/utils/extend.ts"
 import * as Chunk from "effect/Chunk"
 import * as Deferred from "effect/Deferred"
 import * as Duration from "effect/Duration"

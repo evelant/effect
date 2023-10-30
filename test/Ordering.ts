@@ -1,6 +1,6 @@
 import * as _ from "effect/Ordering"
 import { describe, it } from "vitest"
-import { deepStrictEqual } from "./util"
+import { deepStrictEqual } from "./util.ts"
 
 describe.concurrent("Ordering", () => {
   it("match", () => {

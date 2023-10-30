@@ -1,11 +1,11 @@
 /**
  * @since 2.0.0
  */
-import type * as Equal from "./Equal"
-import type * as HashSet from "./HashSet"
-import type { Inspectable } from "./Inspectable"
-import * as internal from "./internal/fiberId"
-import type * as Option from "./Option"
+import type * as Equal from "./Equal.ts"
+import type * as HashSet from "./HashSet.ts"
+import type { Inspectable } from "./Inspectable.ts"
+import * as internal from "./internal/fiberId.ts"
+import type * as Option from "./Option.ts"
 
 /**
  * @since 2.0.0

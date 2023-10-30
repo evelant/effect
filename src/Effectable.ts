@@ -1,11 +1,11 @@
 /**
  * @since 2.0.0
  */
-import type * as Channel from "./Channel"
-import type * as Effect from "./Effect"
-import * as internal from "./internal/Effectable"
-import type * as Sink from "./Sink"
-import type * as Stream from "./Stream"
+import type * as Channel from "./Channel.ts"
+import type * as Effect from "./Effect.ts"
+import * as internal from "./internal/Effectable.ts"
+import type * as Sink from "./Sink.ts"
+import type * as Stream from "./Stream.ts"
 
 /**
  * @since 2.0.0

@@ -1,61 +1,61 @@
 /**
  * @since 2.0.0
  */
-import type * as Cause from "./Cause"
-import type * as Chunk from "./Chunk"
-import type * as Clock from "./Clock"
-import type { Config } from "./Config"
-import type { ConfigError } from "./ConfigError"
-import type { ConfigProvider } from "./ConfigProvider"
-import type * as Context from "./Context"
-import type * as Deferred from "./Deferred"
-import type * as Duration from "./Duration"
-import type * as Either from "./Either"
-import type * as Equal from "./Equal"
-import type { Equivalence } from "./Equivalence"
-import type { ExecutionStrategy } from "./ExecutionStrategy"
-import type * as Exit from "./Exit"
-import type * as Fiber from "./Fiber"
-import type * as FiberId from "./FiberId"
-import type * as FiberRef from "./FiberRef"
-import type * as FiberRefs from "./FiberRefs"
-import type * as FiberRefsPatch from "./FiberRefsPatch"
-import type { LazyArg } from "./Function"
-import { dual, identity } from "./Function"
-import type * as HashMap from "./HashMap"
-import type * as HashSet from "./HashSet"
-import type { TypeLambda } from "./HKT"
-import * as core from "./internal/core"
-import * as effect from "./internal/core-effect"
-import * as defaultServices from "./internal/defaultServices"
-import * as circular from "./internal/effect/circular"
-import * as fiberRuntime from "./internal/fiberRuntime"
-import * as layer from "./internal/layer"
-import * as query from "./internal/query"
-import * as _runtime from "./internal/runtime"
-import * as _schedule from "./internal/schedule"
-import type * as Layer from "./Layer"
-import type { LogLevel } from "./LogLevel"
-import type * as Metric from "./Metric"
-import type * as MetricLabel from "./MetricLabel"
-import type * as Option from "./Option"
-import type { Pipeable } from "./Pipeable"
-import type { Predicate, Refinement } from "./Predicate"
-import type * as Random from "./Random"
-import type * as Ref from "./Ref"
-import type * as Request from "./Request"
-import type { RequestBlock } from "./RequestBlock"
-import type { RequestResolver } from "./RequestResolver"
-import type * as Runtime from "./Runtime"
-import type * as RuntimeFlags from "./RuntimeFlags"
-import type * as RuntimeFlagsPatch from "./RuntimeFlagsPatch"
-import type * as Schedule from "./Schedule"
-import * as Scheduler from "./Scheduler"
-import type * as Scope from "./Scope"
-import type * as Supervisor from "./Supervisor"
-import type * as Tracer from "./Tracer"
-import type { Concurrency } from "./Types"
-import type * as Unify from "./Unify"
+import type * as Cause from "./Cause.ts"
+import type * as Chunk from "./Chunk.ts"
+import type * as Clock from "./Clock.ts"
+import type { Config } from "./Config.ts"
+import type { ConfigError } from "./ConfigError.ts"
+import type { ConfigProvider } from "./ConfigProvider.ts"
+import type * as Context from "./Context.ts"
+import type * as Deferred from "./Deferred.ts"
+import type * as Duration from "./Duration.ts"
+import type * as Either from "./Either.ts"
+import type * as Equal from "./Equal.ts"
+import type { Equivalence } from "./Equivalence.ts"
+import type { ExecutionStrategy } from "./ExecutionStrategy.ts"
+import type * as Exit from "./Exit.ts"
+import type * as Fiber from "./Fiber.ts"
+import type * as FiberId from "./FiberId.ts"
+import type * as FiberRef from "./FiberRef.ts"
+import type * as FiberRefs from "./FiberRefs.ts"
+import type * as FiberRefsPatch from "./FiberRefsPatch.ts"
+import type { LazyArg } from "./Function.ts"
+import { dual, identity } from "./Function.ts"
+import type * as HashMap from "./HashMap.ts"
+import type * as HashSet from "./HashSet.ts"
+import type { TypeLambda } from "./HKT.ts"
+import * as effect from "./internal/core-effect.ts"
+import * as core from "./internal/core.ts"
+import * as defaultServices from "./internal/defaultServices.ts"
+import * as circular from "./internal/effect/circular.ts"
+import * as fiberRuntime from "./internal/fiberRuntime.ts"
+import * as layer from "./internal/layer.ts"
+import * as query from "./internal/query.ts"
+import * as _runtime from "./internal/runtime.ts"
+import * as _schedule from "./internal/schedule.ts"
+import type * as Layer from "./Layer.ts"
+import type { LogLevel } from "./LogLevel.ts"
+import type * as Metric from "./Metric.ts"
+import type * as MetricLabel from "./MetricLabel.ts"
+import type * as Option from "./Option.ts"
+import type { Pipeable } from "./Pipeable.ts"
+import type { Predicate, Refinement } from "./Predicate.ts"
+import type * as Random from "./Random.ts"
+import type * as Ref from "./Ref.ts"
+import type * as Request from "./Request.ts"
+import type { RequestBlock } from "./RequestBlock.ts"
+import type { RequestResolver } from "./RequestResolver.ts"
+import type * as Runtime from "./Runtime.ts"
+import type * as RuntimeFlags from "./RuntimeFlags.ts"
+import type * as RuntimeFlagsPatch from "./RuntimeFlagsPatch.ts"
+import type * as Schedule from "./Schedule.ts"
+import * as Scheduler from "./Scheduler.ts"
+import type * as Scope from "./Scope.ts"
+import type * as Supervisor from "./Supervisor.ts"
+import type * as Tracer from "./Tracer.ts"
+import type { Concurrency } from "./Types.ts"
+import type * as Unify from "./Unify.ts"
 
 // -------------------------------------------------------------------------------------
 // models
@@ -147,7 +147,7 @@ export interface Blocked<R, E, A> extends Effect<R, E, A> {
  * @since 2.0.0
  * @category models
  */
-declare module "./Context" {
+declare module "./Context.ts" {
   interface Tag<Identifier, Service> extends Effect<Identifier, never, Service> {}
   interface TagUnifyBlacklist {
     Effect?: true
@@ -160,7 +160,7 @@ declare module "./Context" {
  * @since 2.0.0
  * @category models
  */
-declare module "./Either" {
+declare module "./Either.ts" {
   interface Left<E, A> extends Effect<never, E, A> {
     readonly _tag: "Left"
   }
@@ -178,7 +178,7 @@ declare module "./Either" {
  * @since 2.0.0
  * @category models
  */
-declare module "./Option" {
+declare module "./Option.ts" {
   interface None<A> extends Effect<never, Cause.NoSuchElementException, A> {
     readonly _tag: "None"
   }

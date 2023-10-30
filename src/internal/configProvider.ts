@@ -1,24 +1,24 @@
-import type * as Config from "../Config"
-import type * as ConfigError from "../ConfigError"
-import type * as ConfigProvider from "../ConfigProvider"
-import type * as PathPatch from "../ConfigProviderPathPatch"
-import * as Context from "../Context"
-import type * as Effect from "../Effect"
-import * as Either from "../Either"
-import type { LazyArg } from "../Function"
-import { dual, pipe } from "../Function"
-import * as HashMap from "../HashMap"
-import * as HashSet from "../HashSet"
-import * as _config from "../internal/config"
-import * as configError from "../internal/configError"
-import * as pathPatch from "../internal/configProvider/pathPatch"
-import * as core from "../internal/core"
-import * as OpCodes from "../internal/opCodes/config"
-import * as StringUtils from "../internal/string-utils"
-import * as number from "../Number"
-import * as Option from "../Option"
-import { pipeArguments } from "../Pipeable"
-import * as RA from "../ReadonlyArray"
+import type * as Config from "../Config.ts"
+import type * as ConfigError from "../ConfigError.ts"
+import type * as ConfigProvider from "../ConfigProvider.ts"
+import type * as PathPatch from "../ConfigProviderPathPatch.ts"
+import * as Context from "../Context.ts"
+import type * as Effect from "../Effect.ts"
+import * as Either from "../Either.ts"
+import type { LazyArg } from "../Function.ts"
+import { dual, pipe } from "../Function.ts"
+import * as HashMap from "../HashMap.ts"
+import * as HashSet from "../HashSet.ts"
+import * as _config from "../internal/config.ts"
+import * as configError from "../internal/configError.ts"
+import * as pathPatch from "../internal/configProvider/pathPatch.ts"
+import * as core from "../internal/core.ts"
+import * as OpCodes from "../internal/opCodes/config.ts"
+import * as StringUtils from "../internal/string-utils.ts"
+import * as number from "../Number.ts"
+import * as Option from "../Option.ts"
+import { pipeArguments } from "../Pipeable.ts"
+import * as RA from "../ReadonlyArray.ts"
 
 const concat = <A, B>(l: ReadonlyArray<A>, r: ReadonlyArray<B>): ReadonlyArray<A | B> => [...l, ...r]
 
@@ -94,6 +94,8 @@ export const fromFlat = (flat: ConfigProvider.ConfigProvider.Flat): ConfigProvid
         })),
     flattened: flat
   })
+
+declare const process: any
 
 /** @internal */
 export const fromEnv = (

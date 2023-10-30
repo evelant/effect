@@ -1,5 +1,5 @@
-import * as it from "effect-test/utils/extend"
-import { unfoldEffect } from "effect-test/utils/unfoldEffect"
+import * as it from "effect-test/utils/extend.ts"
+import { unfoldEffect } from "effect-test/utils/unfoldEffect.ts"
 import * as Chunk from "effect/Chunk"
 import * as Effect from "effect/Effect"
 import * as Either from "effect/Either"

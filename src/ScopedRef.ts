@@ -1,12 +1,12 @@
 /**
  * @since 2.0.0
  */
-import type * as Effect from "./Effect"
-import type { LazyArg } from "./Function"
-import * as internal from "./internal/scopedRef"
-import type { Pipeable } from "./Pipeable"
-import type * as Scope from "./Scope"
-import type * as Synchronized from "./SynchronizedRef"
+import type * as Effect from "./Effect.ts"
+import type { LazyArg } from "./Function.ts"
+import * as internal from "./internal/scopedRef.ts"
+import type { Pipeable } from "./Pipeable.ts"
+import type * as Scope from "./Scope.ts"
+import type * as Synchronized from "./SynchronizedRef.ts"
 
 /**
  * @since 2.0.0

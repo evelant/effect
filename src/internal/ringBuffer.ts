@@ -1,6 +1,6 @@
-import * as Chunk from "../Chunk"
-import { constUndefined } from "../Function"
-import * as Option from "../Option"
+import * as Chunk from "../Chunk.ts"
+import { constUndefined } from "../Function.ts"
+import * as Option from "../Option.ts"
 
 /** @internal */
 export class RingBuffer<A> {

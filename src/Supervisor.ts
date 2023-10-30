@@ -4,17 +4,17 @@
  *
  * @since 2.0.0
  */
-import type * as Context from "./Context"
-import type * as Effect from "./Effect"
-import type * as Exit from "./Exit"
-import type * as Fiber from "./Fiber"
-import * as core from "./internal/core"
-import * as circular from "./internal/layer/circular"
-import * as internal from "./internal/supervisor"
-import type * as Layer from "./Layer"
-import type * as MutableRef from "./MutableRef"
-import type * as Option from "./Option"
-import type * as SortedSet from "./SortedSet"
+import type * as Context from "./Context.ts"
+import type * as Effect from "./Effect.ts"
+import type * as Exit from "./Exit.ts"
+import type * as Fiber from "./Fiber.ts"
+import * as core from "./internal/core.ts"
+import * as circular from "./internal/layer/circular.ts"
+import * as internal from "./internal/supervisor.ts"
+import type * as Layer from "./Layer.ts"
+import type * as MutableRef from "./MutableRef.ts"
+import type * as Option from "./Option.ts"
+import type * as SortedSet from "./SortedSet.ts"
 
 /**
  * @since 2.0.0

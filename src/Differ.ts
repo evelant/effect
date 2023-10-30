@@ -1,19 +1,19 @@
 /**
  * @since 2.0.0
  */
-import type { Chunk } from "./Chunk"
-import type { Context } from "./Context"
-import type { Either } from "./Either"
-import type { Equal } from "./Equal"
-import * as Dual from "./Function"
-import type { HashMap } from "./HashMap"
-import type { HashSet } from "./HashSet"
-import * as D from "./internal/Differ"
-import * as ChunkPatch from "./internal/Differ/ChunkPatch"
-import * as ContextPatch from "./internal/Differ/ContextPatch"
-import * as HashMapPatch from "./internal/Differ/HashMapPatch"
-import * as HashSetPatch from "./internal/Differ/HashSetPatch"
-import * as OrPatch from "./internal/Differ/OrPatch"
+import type { Chunk } from "./Chunk.ts"
+import type { Context } from "./Context.ts"
+import type { Either } from "./Either.ts"
+import type { Equal } from "./Equal.ts"
+import * as Dual from "./Function.ts"
+import type { HashMap } from "./HashMap.ts"
+import type { HashSet } from "./HashSet.ts"
+import * as D from "./internal/Differ.ts"
+import * as ChunkPatch from "./internal/Differ/ChunkPatch.ts"
+import * as ContextPatch from "./internal/Differ/ContextPatch.ts"
+import * as HashMapPatch from "./internal/Differ/HashMapPatch.ts"
+import * as HashSetPatch from "./internal/Differ/HashSetPatch.ts"
+import * as OrPatch from "./internal/Differ/OrPatch.ts"
 
 /**
  * @since 2.0.0

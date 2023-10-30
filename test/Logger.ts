@@ -4,13 +4,14 @@ import * as FiberId from "effect/FiberId"
 import * as FiberRefs from "effect/FiberRefs"
 import { identity } from "effect/Function"
 import * as HashMap from "effect/HashMap"
-import { logLevelInfo } from "effect/internal/core"
+import { logLevelInfo } from "effect/internal/core.ts"
 import * as List from "effect/List"
 import * as Logger from "effect/Logger"
 import * as LogSpan from "effect/LogSpan"
-import { afterEach, beforeEach, describe, expect, it, vi } from "vitest"
+import { afterEach, beforeEach, expect, it, vi } from "vitest"
+import { describeNoDeno } from "./util.ts"
 
-describe("stringLogger", () => {
+describeNoDeno("stringLogger", () => {
   beforeEach(() => {
     vi.useFakeTimers()
   })
@@ -76,7 +77,7 @@ with line breaks" good_key3="I_have=a"`
   })
 })
 
-describe("logfmtLogger", () => {
+describeNoDeno("logfmtLogger", () => {
   beforeEach(() => {
     vi.useFakeTimers()
   })

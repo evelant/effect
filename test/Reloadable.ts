@@ -1,5 +1,5 @@
-import * as Counter from "effect-test/utils/counter"
-import * as it from "effect-test/utils/extend"
+import * as Counter from "effect-test/utils/counter.ts"
+import * as it from "effect-test/utils/extend.ts"
 import * as Context from "effect/Context"
 import * as Effect from "effect/Effect"
 import { pipe } from "effect/Function"

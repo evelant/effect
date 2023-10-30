@@ -1,10 +1,10 @@
-import * as Chunk from "../../Chunk"
-import type * as Differ from "../../Differ"
-import * as Data from "../Data"
+import * as Chunk from "../../Chunk.ts"
+import type * as Differ from "../../Differ.ts"
+import * as Data from "../Data.ts"
 
-import * as Equal from "../../Equal"
-import * as Dual from "../../Function"
-import { pipe } from "../../Function"
+import * as Equal from "../../Equal.ts"
+import * as Dual from "../../Function.ts"
+import { pipe } from "../../Function.ts"
 
 /** @internal */
 export const ChunkPatchTypeId: Differ.Differ.Chunk.TypeId = Symbol.for(

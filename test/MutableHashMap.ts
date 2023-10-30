@@ -308,6 +308,9 @@ describe.concurrent("MutableHashMap", () => {
   })
 
   it("pipe", () => {
-    expect(HM.empty<string, string>().pipe(HM.set("key", "value"))).toEqual(HM.make(["key", "value"]))
+    assert.deepEqual(
+      HM.empty<string, string>().pipe(HM.set("key", "value")).toJSON(),
+      HM.make(["key", "value"]).toJSON()
+    )
   })
 })

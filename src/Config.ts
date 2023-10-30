@@ -1,18 +1,18 @@
 /**
  * @since 2.0.0
  */
-import type * as Chunk from "./Chunk"
-import type * as ConfigError from "./ConfigError"
-import type * as ConfigSecret from "./ConfigSecret"
-import type * as Either from "./Either"
-import type { LazyArg } from "./Function"
-import type * as HashMap from "./HashMap"
-import type * as HashSet from "./HashSet"
-import * as internal from "./internal/config"
-import type * as LogLevel from "./LogLevel"
-import type * as Option from "./Option"
-import type { Pipeable } from "./Pipeable"
-import type { Predicate, Refinement } from "./Predicate"
+import type * as Chunk from "./Chunk.ts"
+import type * as ConfigError from "./ConfigError.ts"
+import type * as ConfigSecret from "./ConfigSecret.ts"
+import type * as Either from "./Either.ts"
+import type { LazyArg } from "./Function.ts"
+import type * as HashMap from "./HashMap.ts"
+import type * as HashSet from "./HashSet.ts"
+import * as internal from "./internal/config.ts"
+import type * as LogLevel from "./LogLevel.ts"
+import type * as Option from "./Option.ts"
+import type { Pipeable } from "./Pipeable.ts"
+import type { Predicate, Refinement } from "./Predicate.ts"
 
 /**
  * @since 2.0.0
@@ -356,7 +356,7 @@ export const hashMap: <A>(config: Config<A>, name?: string | undefined) => Confi
  * For example:
  *
  * ```
- * import { Config, unwrap } from "./Config"
+ * import { Config, unwrap } from "./Config.ts"
  *
  * interface Options { key: string }
  *

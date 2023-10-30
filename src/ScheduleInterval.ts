@@ -1,9 +1,9 @@
 /**
  * @since 2.0.0
  */
-import type * as Duration from "./Duration"
-import * as internal from "./internal/schedule/interval"
-import type * as Option from "./Option"
+import type * as Duration from "./Duration.ts"
+import * as internal from "./internal/schedule/interval.ts"
+import type * as Option from "./Option.ts"
 
 /**
  * @since 2.0.0

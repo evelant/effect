@@ -7,6 +7,7 @@ import * as Option from "effect/Option"
 import * as ReadonlyArray from "effect/ReadonlyArray"
 import { inspect } from "node:util"
 import { describe, expect, it } from "vitest"
+import { equalByValue } from "./util.ts"
 
 const testStructuralSharing = <A>(a: List.List<A>, b: List.List<A>, n = 0): number | undefined => {
   if (a === b) {
@@ -154,11 +155,11 @@ describe.concurrent("List", () => {
   })
 
   it("toChunk", () => {
-    expect(List.toChunk(List.empty())).toEqual(Chunk.empty())
-    expect(List.toChunk(List.make(1, 2, 3))).toEqual(Chunk.make(1, 2, 3))
+    equalByValue(List.toChunk(List.empty()), Chunk.empty())
+    equalByValue(List.toChunk(List.make(1, 2, 3)), Chunk.make(1, 2, 3))
   })
 
-  it("toChunk", () => {
+  it("unsafeHead", () => {
     expect(() => List.unsafeHead(List.empty())).toThrowError(new Error("Expected List to be non-empty"))
     expect(List.unsafeHead(List.make(1, 2, 3))).toEqual(1)
   })

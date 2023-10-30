@@ -1,10 +1,10 @@
-import type * as MergeState from "../../ChannelMergeState"
-import type * as Effect from "../../Effect"
-import type * as Either from "../../Either"
-import type * as Exit from "../../Exit"
-import type * as Fiber from "../../Fiber"
-import { dual } from "../../Function"
-import * as OpCodes from "../opCodes/channelMergeState"
+import type * as MergeState from "../../ChannelMergeState.ts"
+import type * as Effect from "../../Effect.ts"
+import type * as Either from "../../Either.ts"
+import type * as Exit from "../../Exit.ts"
+import type * as Fiber from "../../Fiber.ts"
+import { dual } from "../../Function.ts"
+import * as OpCodes from "../opCodes/channelMergeState.ts"
 
 /** @internal */
 const MergeStateSymbolKey = "effect/ChannelMergeState"

@@ -1,14 +1,14 @@
 /**
  * @since 2.0.0
  */
-import type * as Chunk from "./Chunk"
-import type { LazyArg } from "./Function"
-import type * as HashMap from "./HashMap"
-import * as internal from "./internal/stm/tMap"
-import type * as Option from "./Option"
-import type * as STM from "./STM"
-import type * as TArray from "./TArray"
-import type * as TRef from "./TRef"
+import type * as Chunk from "./Chunk.ts"
+import type { LazyArg } from "./Function.ts"
+import type * as HashMap from "./HashMap.ts"
+import * as internal from "./internal/stm/tMap.ts"
+import type * as Option from "./Option.ts"
+import type * as STM from "./STM.ts"
+import type * as TArray from "./TArray.ts"
+import type * as TRef from "./TRef.ts"
 
 /**
  * @since 2.0.0

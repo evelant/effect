@@ -1,8 +1,8 @@
 /**
  * @since 2.0.0
  */
-import type { Equivalence } from "./Equivalence"
-import * as Hash from "./Hash"
+import type { Equivalence } from "./Equivalence.ts"
+import * as Hash from "./Hash.ts"
 
 /**
  * @since 2.0.0

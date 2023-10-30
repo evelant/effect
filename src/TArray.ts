@@ -1,12 +1,12 @@
 /**
  * @since 2.0.0
  */
-import * as internal from "./internal/stm/tArray"
-import type * as Option from "./Option"
-import type * as Order from "./Order"
-import type { Predicate } from "./Predicate"
-import type * as STM from "./STM"
-import type * as TRef from "./TRef"
+import * as internal from "./internal/stm/tArray.ts"
+import type * as Option from "./Option.ts"
+import type * as Order from "./Order.ts"
+import type { Predicate } from "./Predicate.ts"
+import type * as STM from "./STM.ts"
+import type * as TRef from "./TRef.ts"
 
 /**
  * @since 2.0.0

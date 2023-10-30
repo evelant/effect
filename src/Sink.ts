@@ -1,26 +1,26 @@
 /**
  * @since 2.0.0
  */
-import type * as Cause from "./Cause"
-import type * as Channel from "./Channel"
-import type * as MergeDecision from "./ChannelMergeDecision"
-import type * as Chunk from "./Chunk"
-import type * as Context from "./Context"
-import type * as Duration from "./Duration"
-import type * as Effect from "./Effect"
-import type * as Either from "./Either"
-import type * as Exit from "./Exit"
-import type { LazyArg } from "./Function"
-import type * as HashMap from "./HashMap"
-import type * as HashSet from "./HashSet"
-import * as internal from "./internal/sink"
-import type * as Option from "./Option"
-import type { Pipeable } from "./Pipeable"
-import type { Predicate, Refinement } from "./Predicate"
-import type * as PubSub from "./PubSub"
-import type * as Queue from "./Queue"
-import type * as Scope from "./Scope"
-import type * as Unify from "./Unify"
+import type * as Cause from "./Cause.ts"
+import type * as Channel from "./Channel.ts"
+import type * as MergeDecision from "./ChannelMergeDecision.ts"
+import type * as Chunk from "./Chunk.ts"
+import type * as Context from "./Context.ts"
+import type * as Duration from "./Duration.ts"
+import type * as Effect from "./Effect.ts"
+import type * as Either from "./Either.ts"
+import type * as Exit from "./Exit.ts"
+import type { LazyArg } from "./Function.ts"
+import type * as HashMap from "./HashMap.ts"
+import type * as HashSet from "./HashSet.ts"
+import * as internal from "./internal/sink.ts"
+import type * as Option from "./Option.ts"
+import type { Pipeable } from "./Pipeable.ts"
+import type { Predicate, Refinement } from "./Predicate.ts"
+import type * as PubSub from "./PubSub.ts"
+import type * as Queue from "./Queue.ts"
+import type * as Scope from "./Scope.ts"
+import type * as Unify from "./Unify.ts"
 
 /**
  * @since 2.0.0
@@ -75,7 +75,7 @@ export interface SinkUnifyBlacklist extends Effect.EffectUnifyBlacklist {
  * @since 2.0.0
  * @category models
  */
-declare module "./Effect" {
+declare module "./Effect.ts" {
   interface Effect<R, E, A> extends Sink<R, E, unknown, never, A> {}
   interface EffectUnifyBlacklist {
     Sink?: true

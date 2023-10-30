@@ -1,7 +1,7 @@
-import * as Effect from "../../Effect"
-import type * as Exit from "../../Exit"
-import * as OpCodes from "../opCodes/channelState"
-import type { ErasedExecutor } from "./channelExecutor"
+import * as Effect from "../../Effect.ts"
+import type * as Exit from "../../Exit.ts"
+import * as OpCodes from "../opCodes/channelState.ts"
+import type { ErasedExecutor } from "./channelExecutor.ts"
 
 /** @internal */
 export const ChannelStateTypeId = Symbol.for("effect/ChannelState")

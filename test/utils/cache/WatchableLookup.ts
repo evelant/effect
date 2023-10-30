@@ -1,4 +1,4 @@
-import * as ObservableResource from "effect-test/utils/cache/ObservableResource"
+import * as ObservableResource from "effect-test/utils/cache/ObservableResource.ts"
 import * as Chunk from "effect/Chunk"
 import * as Duration from "effect/Duration"
 import * as Effect from "effect/Effect"

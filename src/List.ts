@@ -21,19 +21,19 @@
  * Licensed under Apache License 2.0
  * (http://www.apache.org/licenses/LICENSE-2.0).
  */
-import * as Chunk from "./Chunk"
-import * as Either from "./Either"
-import * as Equal from "./Equal"
-import * as Equivalence from "./Equivalence"
-import { dual, identity, unsafeCoerce } from "./Function"
-import * as Hash from "./Hash"
-import { type Inspectable, NodeInspectSymbol, toJSON, toString } from "./Inspectable"
-import * as Option from "./Option"
-import type { Pipeable } from "./Pipeable"
-import { pipeArguments } from "./Pipeable"
-import type { Predicate, Refinement } from "./Predicate"
-import { isObject } from "./Predicate"
-import * as ReadonlyArray from "./ReadonlyArray"
+import * as Chunk from "./Chunk.ts"
+import * as Either from "./Either.ts"
+import * as Equal from "./Equal.ts"
+import * as Equivalence from "./Equivalence.ts"
+import { dual, identity, unsafeCoerce } from "./Function.ts"
+import * as Hash from "./Hash.ts"
+import { type Inspectable, NodeInspectSymbol, toJSON, toString } from "./Inspectable.ts"
+import * as Option from "./Option.ts"
+import type { Pipeable } from "./Pipeable.ts"
+import { pipeArguments } from "./Pipeable.ts"
+import type { Predicate, Refinement } from "./Predicate.ts"
+import { isObject } from "./Predicate.ts"
+import * as ReadonlyArray from "./ReadonlyArray.ts"
 
 /**
  * Represents an immutable linked list of elements of type `A`.

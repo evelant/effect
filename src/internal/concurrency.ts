@@ -1,6 +1,6 @@
-import type { Effect } from "../Effect"
-import type { Concurrency } from "../Types"
-import * as core from "./core"
+import type { Effect } from "../Effect.ts"
+import type { Concurrency } from "../Types.ts"
+import * as core from "./core.ts"
 
 /** @internal */
 export const match: <R, E, A>(

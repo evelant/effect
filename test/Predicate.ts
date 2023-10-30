@@ -1,4 +1,4 @@
-import { deepStrictEqual } from "effect-test/util"
+import { deepStrictEqual } from "effect-test/util.ts"
 import { constFalse, constTrue, pipe } from "effect/Function"
 import * as _ from "effect/Predicate"
 import { assert, describe, expect, it } from "vitest"

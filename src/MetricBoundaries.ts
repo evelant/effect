@@ -1,10 +1,10 @@
 /**
  * @since 2.0.0
  */
-import type * as Chunk from "./Chunk"
-import type * as Equal from "./Equal"
-import * as internal from "./internal/metric/boundaries"
-import type { Pipeable } from "./Pipeable"
+import type * as Chunk from "./Chunk.ts"
+import type * as Equal from "./Equal.ts"
+import * as internal from "./internal/metric/boundaries.ts"
+import type { Pipeable } from "./Pipeable.ts"
 
 /**
  * @since 2.0.0

@@ -4,13 +4,13 @@
  * @since 2.0.0
  */
 
-import type { Either } from "./Either"
-import * as E from "./Either"
-import * as Equal from "./Equal"
-import type { Equivalence } from "./Equivalence"
-import { dual, identity } from "./Function"
-import type { TypeLambda } from "./HKT"
-import * as Option from "./Option"
+import type { Either } from "./Either.ts"
+import * as E from "./Either.ts"
+import * as Equal from "./Equal.ts"
+import type { Equivalence } from "./Equivalence.ts"
+import { dual, identity } from "./Function.ts"
+import type { TypeLambda } from "./HKT.ts"
+import * as Option from "./Option.ts"
 
 /**
  * @category models

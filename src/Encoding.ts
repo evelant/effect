@@ -7,11 +7,11 @@
  *
  * @since 2.0.0
  */
-import * as Either from "./Either"
-import * as Base64 from "./internal/Encoding/Base64"
-import * as Base64Url from "./internal/Encoding/Base64Url"
-import * as Common from "./internal/Encoding/Common"
-import * as Hex from "./internal/Encoding/Hex"
+import * as Either from "./Either.ts"
+import * as Base64 from "./internal/Encoding/Base64.ts"
+import * as Base64Url from "./internal/Encoding/Base64Url.ts"
+import * as Common from "./internal/Encoding/Common.ts"
+import * as Hex from "./internal/Encoding/Hex.ts"
 
 /**
  * Encodes the given value into a base64 (RFC4648) `string`.

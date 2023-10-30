@@ -2,14 +2,14 @@
  * @since 2.0.0
  */
 
-import type * as Either from "../Either"
-import * as Equal from "../Equal"
-import { dual } from "../Function"
-import * as Hash from "../Hash"
-import { NodeInspectSymbol, toJSON, toString } from "../Inspectable"
-import * as option from "../internal/Option"
-import type { Option } from "../Option"
-import { EffectPrototype } from "./Effectable"
+import type * as Either from "../Either.ts"
+import * as Equal from "../Equal.ts"
+import { dual } from "../Function.ts"
+import * as Hash from "../Hash.ts"
+import { NodeInspectSymbol, toJSON, toString } from "../Inspectable.ts"
+import * as option from "../internal/Option.ts"
+import type { Option } from "../Option.ts"
+import { EffectPrototype } from "./Effectable.ts"
 
 /**
  * @internal

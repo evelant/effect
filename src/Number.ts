@@ -5,13 +5,13 @@
  *
  * @since 2.0.0
  */
-import * as equivalence from "./Equivalence"
-import { dual } from "./Function"
-import * as option from "./internal/Option"
-import type { Option } from "./Option"
-import * as order from "./Order"
-import type { Ordering } from "./Ordering"
-import * as predicate from "./Predicate"
+import * as equivalence from "./Equivalence.ts"
+import { dual } from "./Function.ts"
+import * as option from "./internal/Option.ts"
+import type { Option } from "./Option.ts"
+import * as order from "./Order.ts"
+import type { Ordering } from "./Ordering.ts"
+import * as predicate from "./Predicate.ts"
 
 /**
  * Tests if a value is a `number`.

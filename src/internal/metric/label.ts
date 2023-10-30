@@ -1,8 +1,8 @@
-import * as Equal from "../../Equal"
-import { pipe } from "../../Function"
-import * as Hash from "../../Hash"
-import type * as MetricLabel from "../../MetricLabel"
-import { pipeArguments } from "../../Pipeable"
+import * as Equal from "../../Equal.ts"
+import { pipe } from "../../Function.ts"
+import * as Hash from "../../Hash.ts"
+import type * as MetricLabel from "../../MetricLabel.ts"
+import { pipeArguments } from "../../Pipeable.ts"
 
 /** @internal */
 const MetricLabelSymbolKey = "effect/MetricLabel"

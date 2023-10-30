@@ -1,14 +1,14 @@
 /**
  * @since 2.0.0
  */
-import type * as Chunk from "./Chunk"
-import type * as Deferred from "./Deferred"
-import type * as Effect from "./Effect"
-import * as internal from "./internal/queue"
-import type * as MutableQueue from "./MutableQueue"
-import type * as MutableRef from "./MutableRef"
-import type * as Option from "./Option"
-import type { Pipeable } from "./Pipeable"
+import type * as Chunk from "./Chunk.ts"
+import type * as Deferred from "./Deferred.ts"
+import type * as Effect from "./Effect.ts"
+import * as internal from "./internal/queue.ts"
+import type * as MutableQueue from "./MutableQueue.ts"
+import type * as MutableRef from "./MutableRef.ts"
+import type * as Option from "./Option.ts"
+import type { Pipeable } from "./Pipeable.ts"
 
 /**
  * @since 2.0.0

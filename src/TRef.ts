@@ -2,12 +2,12 @@
  * @since 2.0.0
  */
 
-import type * as Journal from "./internal/stm/stm/journal"
-import type * as TxnId from "./internal/stm/stm/txnId"
-import type * as Versioned from "./internal/stm/stm/versioned"
-import * as internal from "./internal/stm/tRef"
-import type * as Option from "./Option"
-import type * as STM from "./STM"
+import type * as Journal from "./internal/stm/stm/journal.ts"
+import type * as TxnId from "./internal/stm/stm/txnId.ts"
+import type * as Versioned from "./internal/stm/stm/versioned.ts"
+import * as internal from "./internal/stm/tRef.ts"
+import type * as Option from "./Option.ts"
+import type * as STM from "./STM.ts"
 
 /**
  * @since 2.0.0

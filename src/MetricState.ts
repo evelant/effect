@@ -1,13 +1,13 @@
 /**
  * @since 2.0.0
  */
-import type * as Chunk from "./Chunk"
-import type * as Equal from "./Equal"
-import type * as HashMap from "./HashMap"
-import * as internal from "./internal/metric/state"
-import type * as MetricKeyType from "./MetricKeyType"
-import type * as Option from "./Option"
-import type { Pipeable } from "./Pipeable"
+import type * as Chunk from "./Chunk.ts"
+import type * as Equal from "./Equal.ts"
+import type * as HashMap from "./HashMap.ts"
+import * as internal from "./internal/metric/state.ts"
+import type * as MetricKeyType from "./MetricKeyType.ts"
+import type * as Option from "./Option.ts"
+import type { Pipeable } from "./Pipeable.ts"
 
 /**
  * @since 2.0.0

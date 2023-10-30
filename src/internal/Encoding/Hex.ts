@@ -1,6 +1,6 @@
-import * as Either from "../../Either"
-import type * as Encoding from "../../Encoding"
-import { DecodeException } from "../../internal/Encoding/Common"
+import * as Either from "../../Either.ts"
+import type * as Encoding from "../../Encoding.ts"
+import { DecodeException } from "../../internal/Encoding/Common.ts"
 
 /** @internal */
 export const encode = (bytes: Uint8Array) => {

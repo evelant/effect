@@ -16,12 +16,12 @@
  *
  * @since 2.0.0
  */
-import * as Either from "./Either"
-import { identity } from "./Function"
-import * as Option from "./Option"
-import type { Predicate, Refinement } from "./Predicate"
-import * as ReadonlyArray from "./ReadonlyArray"
-import type * as Types from "./Types"
+import * as Either from "./Either.ts"
+import { identity } from "./Function.ts"
+import * as Option from "./Option.ts"
+import type { Predicate, Refinement } from "./Predicate.ts"
+import * as ReadonlyArray from "./ReadonlyArray.ts"
+import type * as Types from "./Types.ts"
 
 /**
  * @since 2.0.0

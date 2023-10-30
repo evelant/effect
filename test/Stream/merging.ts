@@ -1,4 +1,4 @@
-import * as it from "effect-test/utils/extend"
+import * as it from "effect-test/utils/extend.ts"
 import * as Chunk from "effect/Chunk"
 import * as Duration from "effect/Duration"
 import * as Effect from "effect/Effect"

@@ -2,11 +2,11 @@
  * @since 2.0.0
  */
 
-import type * as Effect from "./Effect"
-import * as internal from "./internal/stm/tSemaphore"
-import type * as Scope from "./Scope"
-import type * as STM from "./STM"
-import type * as TRef from "./TRef"
+import type * as Effect from "./Effect.ts"
+import * as internal from "./internal/stm/tSemaphore.ts"
+import type * as Scope from "./Scope.ts"
+import type * as STM from "./STM.ts"
+import type * as TRef from "./TRef.ts"
 
 /**
  * @since 2.0.0

@@ -1,11 +1,11 @@
-import * as Cause from "../../Cause"
-import type * as SingleProducerAsyncInput from "../../ChannelSingleProducerAsyncInput"
-import * as Deferred from "../../Deferred"
-import * as Effect from "../../Effect"
-import * as Either from "../../Either"
-import * as Exit from "../../Exit"
-import { pipe } from "../../Function"
-import * as Ref from "../../Ref"
+import * as Cause from "../../Cause.ts"
+import type * as SingleProducerAsyncInput from "../../ChannelSingleProducerAsyncInput.ts"
+import * as Deferred from "../../Deferred.ts"
+import * as Effect from "../../Effect.ts"
+import * as Either from "../../Either.ts"
+import * as Exit from "../../Exit.ts"
+import { pipe } from "../../Function.ts"
+import * as Ref from "../../Ref.ts"
 
 /** @internal */
 type State<Err, Elem, _Done> =

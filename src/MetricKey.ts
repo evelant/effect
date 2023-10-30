@@ -1,16 +1,16 @@
 /**
  * @since 2.0.0
  */
-import type * as Chunk from "./Chunk"
-import type * as Duration from "./Duration"
-import type * as Equal from "./Equal"
-import type * as HashSet from "./HashSet"
-import * as internal from "./internal/metric/key"
-import type * as MetricBoundaries from "./MetricBoundaries"
-import type * as MetricKeyType from "./MetricKeyType"
-import type * as MetricLabel from "./MetricLabel"
-import type * as Option from "./Option"
-import type { Pipeable } from "./Pipeable"
+import type * as Chunk from "./Chunk.ts"
+import type * as Duration from "./Duration.ts"
+import type * as Equal from "./Equal.ts"
+import type * as HashSet from "./HashSet.ts"
+import * as internal from "./internal/metric/key.ts"
+import type * as MetricBoundaries from "./MetricBoundaries.ts"
+import type * as MetricKeyType from "./MetricKeyType.ts"
+import type * as MetricLabel from "./MetricLabel.ts"
+import type * as Option from "./Option.ts"
+import type { Pipeable } from "./Pipeable.ts"
 
 /**
  * @since 2.0.0

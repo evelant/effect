@@ -1,11 +1,11 @@
 /**
  * @since 2.0.0
  */
-import type * as Context from "./Context"
-import type * as Duration from "./Duration"
-import type * as Effect from "./Effect"
-import * as internal from "./internal/clock"
-import * as defaultServices from "./internal/defaultServices"
+import type * as Context from "./Context.ts"
+import type * as Duration from "./Duration.ts"
+import type * as Effect from "./Effect.ts"
+import * as internal from "./internal/clock.ts"
+import * as defaultServices from "./internal/defaultServices.ts"
 
 /**
  * @since 2.0.0

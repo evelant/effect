@@ -1,7 +1,7 @@
-import * as Either from "../../Either"
-import type * as Encoding from "../../Encoding"
-import * as Base64 from "../../internal/Encoding/Base64"
-import { DecodeException } from "../../internal/Encoding/Common"
+import * as Either from "../../Either.ts"
+import type * as Encoding from "../../Encoding.ts"
+import * as Base64 from "../../internal/Encoding/Base64.ts"
+import { DecodeException } from "../../internal/Encoding/Common.ts"
 
 /** @internal */
 export const encode = (data: Uint8Array) =>

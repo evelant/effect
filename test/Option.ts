@@ -1,4 +1,4 @@
-import * as Util from "effect-test/util"
+import * as Util from "effect-test/util.ts"
 import * as Chunk from "effect/Chunk"
 import * as E from "effect/Either"
 import { pipe } from "effect/Function"

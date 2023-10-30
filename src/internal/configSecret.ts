@@ -1,8 +1,8 @@
-import * as Chunk from "../Chunk"
-import type * as ConfigSecret from "../ConfigSecret"
-import * as Equal from "../Equal"
-import { pipe } from "../Function"
-import * as Hash from "../Hash"
+import * as Chunk from "../Chunk.ts"
+import type * as ConfigSecret from "../ConfigSecret.ts"
+import * as Equal from "../Equal.ts"
+import { pipe } from "../Function.ts"
+import * as Hash from "../Hash.ts"
 
 /** @internal */
 const ConfigSecretSymbolKey = "effect/ConfigSecret"

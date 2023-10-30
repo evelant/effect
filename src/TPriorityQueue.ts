@@ -1,13 +1,13 @@
 /**
  * @since 2.0.0
  */
-import * as internal from "./internal/stm/tPriorityQueue"
-import type * as Option from "./Option"
-import type * as Order from "./Order"
-import type { Predicate } from "./Predicate"
-import type * as SortedMap from "./SortedMap"
-import type * as STM from "./STM"
-import type * as TRef from "./TRef"
+import * as internal from "./internal/stm/tPriorityQueue.ts"
+import type * as Option from "./Option.ts"
+import type * as Order from "./Order.ts"
+import type { Predicate } from "./Predicate.ts"
+import type * as SortedMap from "./SortedMap.ts"
+import type * as STM from "./STM.ts"
+import type * as TRef from "./TRef.ts"
 
 /**
  * @since 2.0.0

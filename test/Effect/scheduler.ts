@@ -1,6 +1,6 @@
-import * as it from "effect-test/utils/extend"
+import * as it from "effect-test/utils/extend.ts"
 import * as Effect from "effect/Effect"
-import * as timeout from "effect/internal/timeout"
+import * as timeout from "effect/internal/timeout.ts"
 import * as Scheduler from "effect/Scheduler"
 import { assert, describe } from "vitest"
 
@@ -34,7 +34,7 @@ describe.concurrent("Effect", () => {
         ],
         [
           300,
-          Scheduler.makeBatched(setImmediate)
+          Scheduler.makeBatched((_) => setTimeout(_, 0))
         ]
       )
       yield* $(

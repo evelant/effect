@@ -1,10 +1,10 @@
-import * as Chunk from "../../Chunk"
-import * as Equal from "../../Equal"
-import { pipe } from "../../Function"
-import * as Hash from "../../Hash"
-import type * as MetricBoundaries from "../../MetricBoundaries"
-import { pipeArguments } from "../../Pipeable"
-import * as ReadonlyArray from "../../ReadonlyArray"
+import * as Chunk from "../../Chunk.ts"
+import * as Equal from "../../Equal.ts"
+import { pipe } from "../../Function.ts"
+import * as Hash from "../../Hash.ts"
+import type * as MetricBoundaries from "../../MetricBoundaries.ts"
+import { pipeArguments } from "../../Pipeable.ts"
+import * as ReadonlyArray from "../../ReadonlyArray.ts"
 
 /** @internal */
 const MetricBoundariesSymbolKey = "effect/MetricBoundaries"

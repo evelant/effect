@@ -2,7 +2,7 @@ import { pipe } from "effect/Function"
 import * as _ from "effect/Order"
 import { sort } from "effect/ReadonlyArray"
 import { describe, it } from "vitest"
-import * as U from "./util"
+import * as U from "./util.ts"
 
 describe.concurrent("Order", () => {
   it("struct", () => {

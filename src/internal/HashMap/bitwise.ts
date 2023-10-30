@@ -1,4 +1,4 @@
-import { MASK } from "../../internal/HashMap/config"
+import { MASK } from "../../internal/HashMap/config.ts"
 
 /**
  * Hamming weight.

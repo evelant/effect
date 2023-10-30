@@ -1,12 +1,12 @@
 /**
  * @since 2.0.0
  */
-import * as Chunk from "./Chunk"
-import * as Dual from "./Function"
-import { type Inspectable, NodeInspectSymbol, toJSON, toString } from "./Inspectable"
-import * as MutableList from "./MutableList"
-import type { Pipeable } from "./Pipeable"
-import { pipeArguments } from "./Pipeable"
+import * as Chunk from "./Chunk.ts"
+import * as Dual from "./Function.ts"
+import { type Inspectable, NodeInspectSymbol, toJSON, toString } from "./Inspectable.ts"
+import * as MutableList from "./MutableList.ts"
+import type { Pipeable } from "./Pipeable.ts"
+import { pipeArguments } from "./Pipeable.ts"
 
 const TypeId: unique symbol = Symbol.for("effect/MutableQueue") as TypeId
 

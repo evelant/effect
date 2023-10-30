@@ -1,9 +1,9 @@
-import type * as Effect from "../Effect"
-import { dual } from "../Function"
-import * as completedRequestMap from "../internal/completedRequestMap"
-import * as core from "../internal/core"
-import type * as Request from "../Request"
-import * as Data from "./Data"
+import type * as Effect from "../Effect.ts"
+import { dual } from "../Function.ts"
+import * as completedRequestMap from "../internal/completedRequestMap.ts"
+import * as core from "../internal/core.ts"
+import type * as Request from "../Request.ts"
+import * as Data from "./Data.ts"
 
 /** @internal */
 const RequestSymbolKey = "effect/Request"

@@ -1,5 +1,5 @@
-import { chunkCoordination } from "effect-test/utils/coordination"
-import * as it from "effect-test/utils/extend"
+import { chunkCoordination } from "effect-test/utils/coordination.ts"
+import * as it from "effect-test/utils/extend.ts"
 import * as Chunk from "effect/Chunk"
 import * as Duration from "effect/Duration"
 import * as Effect from "effect/Effect"
@@ -220,7 +220,7 @@ describe.concurrent("Stream", () => {
         readonly _tag = "FromReadableStreamError"
         constructor(readonly error: unknown) {}
       }
-      class NumberSource implements UnderlyingDefaultSource<number> {
+      class NumberSource {
         #counter = 0
         pull(controller: ReadableStreamDefaultController<number>) {
           controller.enqueue(this.#counter)

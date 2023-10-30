@@ -1,16 +1,16 @@
 /**
  * @since 2.0.0
  */
-import type * as Cause from "./Cause"
-import type * as Effect from "./Effect"
-import type * as Exit from "./Exit"
-import type * as FiberId from "./FiberId"
-import type { LazyArg } from "./Function"
-import * as core from "./internal/core"
-import * as internal from "./internal/deferred"
-import type * as MutableRef from "./MutableRef"
-import type * as Option from "./Option"
-import type { Pipeable } from "./Pipeable"
+import type * as Cause from "./Cause.ts"
+import type * as Effect from "./Effect.ts"
+import type * as Exit from "./Exit.ts"
+import type * as FiberId from "./FiberId.ts"
+import type { LazyArg } from "./Function.ts"
+import * as core from "./internal/core.ts"
+import * as internal from "./internal/deferred.ts"
+import type * as MutableRef from "./MutableRef.ts"
+import type * as Option from "./Option.ts"
+import type { Pipeable } from "./Pipeable.ts"
 
 /**
  * @since 2.0.0

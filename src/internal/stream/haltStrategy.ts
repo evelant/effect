@@ -1,6 +1,6 @@
-import { dual } from "../../Function"
-import type * as HaltStrategy from "../../StreamHaltStrategy"
-import * as OpCodes from "../opCodes/streamHaltStrategy"
+import { dual } from "../../Function.ts"
+import type * as HaltStrategy from "../../StreamHaltStrategy.ts"
+import * as OpCodes from "../opCodes/streamHaltStrategy.ts"
 
 /** @internal */
 export const Left: HaltStrategy.HaltStrategy = {

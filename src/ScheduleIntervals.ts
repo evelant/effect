@@ -1,9 +1,9 @@
 /**
  * @since 2.0.0
  */
-import type * as Check from "./Chunk"
-import * as internal from "./internal/schedule/intervals"
-import type * as Interval from "./ScheduleInterval"
+import type * as Check from "./Chunk.ts"
+import * as internal from "./internal/schedule/intervals.ts"
+import type * as Interval from "./ScheduleInterval.ts"
 
 /**
  * @since 2.0.0

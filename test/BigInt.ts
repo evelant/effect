@@ -1,4 +1,4 @@
-import { deepStrictEqual } from "effect-test/util"
+import { deepStrictEqual } from "effect-test/util.ts"
 import * as BigInt from "effect/BigInt"
 import { pipe } from "effect/Function"
 import * as Option from "effect/Option"

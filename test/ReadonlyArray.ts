@@ -1,4 +1,4 @@
-import { deepStrictEqual, double, strictEqual } from "effect-test/util"
+import { deepStrictEqual, double, strictEqual } from "effect-test/util.ts"
 import * as E from "effect/Either"
 import { identity, pipe } from "effect/Function"
 import * as Number from "effect/Number"

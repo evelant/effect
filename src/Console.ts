@@ -1,11 +1,11 @@
 /**
  * @since 2.0.0
  */
-import type { Effect } from "./Effect"
-import * as internal from "./internal/console"
-import * as defaultConsole from "./internal/defaultServices/console"
-import type * as Layer from "./Layer"
-import type { Scope } from "./Scope"
+import type { Effect } from "./Effect.ts"
+import * as internal from "./internal/console.ts"
+import * as defaultConsole from "./internal/defaultServices/console.ts"
+import type * as Layer from "./Layer.ts"
+import type { Scope } from "./Scope.ts"
 
 /**
  * @since 2.0.0

@@ -1,10 +1,10 @@
-import * as Equal from "../../../Equal"
-import * as Exit from "../../../Exit"
-import { pipe } from "../../../Function"
-import * as Hash from "../../../Hash"
-import * as OpCodes from "../../../internal/stm/opCodes/stmState"
-import * as TExitOpCodes from "../../../internal/stm/opCodes/tExit"
-import type * as TExit from "../../../internal/stm/stm/tExit"
+import * as Equal from "../../../Equal.ts"
+import * as Exit from "../../../Exit.ts"
+import { pipe } from "../../../Function.ts"
+import * as Hash from "../../../Hash.ts"
+import * as OpCodes from "../../../internal/stm/opCodes/stmState.ts"
+import * as TExitOpCodes from "../../../internal/stm/opCodes/tExit.ts"
+import type * as TExit from "../../../internal/stm/stm/tExit.ts"
 
 /** @internal */
 const STMStateSymbolKey = "effect/STM/State"

@@ -1,5 +1,5 @@
-import { equivalentElements } from "effect-test/utils/equals"
-import * as it from "effect-test/utils/extend"
+import { equivalentElements } from "effect-test/utils/equals.ts"
+import * as it from "effect-test/utils/extend.ts"
 import * as Effect from "effect/Effect"
 import { pipe } from "effect/Function"
 import * as number from "effect/Number"

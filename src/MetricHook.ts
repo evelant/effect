@@ -1,11 +1,11 @@
 /**
  * @since 2.0.0
  */
-import type { LazyArg } from "./Function"
-import * as internal from "./internal/metric/hook"
-import type * as MetricKey from "./MetricKey"
-import type * as MetricState from "./MetricState"
-import type { Pipeable } from "./Pipeable"
+import type { LazyArg } from "./Function.ts"
+import * as internal from "./internal/metric/hook.ts"
+import type * as MetricKey from "./MetricKey.ts"
+import type * as MetricState from "./MetricState.ts"
+import type { Pipeable } from "./Pipeable.ts"
 
 /**
  * @since 2.0.0

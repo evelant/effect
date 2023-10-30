@@ -6,16 +6,16 @@
  * @since 2.0.0
  */
 
-import * as equivalence from "./Equivalence"
-import { dual } from "./Function"
-import * as readonlyArray from "./internal/ReadonlyArray"
-import * as number from "./Number"
-import * as Option from "./Option"
-import * as order from "./Order"
-import type * as Ordering from "./Ordering"
-import type { Refinement } from "./Predicate"
-import * as predicate from "./Predicate"
-import type { NonEmptyArray } from "./ReadonlyArray"
+import * as equivalence from "./Equivalence.ts"
+import { dual } from "./Function.ts"
+import * as readonlyArray from "./internal/ReadonlyArray.ts"
+import * as number from "./Number.ts"
+import * as Option from "./Option.ts"
+import * as order from "./Order.ts"
+import type * as Ordering from "./Ordering.ts"
+import type { Refinement } from "./Predicate.ts"
+import * as predicate from "./Predicate.ts"
+import type { NonEmptyArray } from "./ReadonlyArray.ts"
 
 /**
  * Tests if a value is a `string`.

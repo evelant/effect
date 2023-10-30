@@ -1,14 +1,14 @@
-import type * as C from "../Context"
-import * as Equal from "../Equal"
-import { dual } from "../Function"
-import { globalValue } from "../GlobalValue"
-import * as Hash from "../Hash"
-import { NodeInspectSymbol, toJSON, toString } from "../Inspectable"
-import type * as O from "../Option"
-import { pipeArguments } from "../Pipeable"
-import type * as STM from "../STM"
-import { EffectPrototype, effectVariance } from "./Effectable"
-import * as option from "./Option"
+import type * as C from "../Context.ts"
+import * as Equal from "../Equal.ts"
+import { dual } from "../Function.ts"
+import { globalValue } from "../GlobalValue.ts"
+import * as Hash from "../Hash.ts"
+import { NodeInspectSymbol, toJSON, toString } from "../Inspectable.ts"
+import type * as O from "../Option.ts"
+import { pipeArguments } from "../Pipeable.ts"
+import type * as STM from "../STM.ts"
+import { EffectPrototype, effectVariance } from "./Effectable.ts"
+import * as option from "./Option.ts"
 
 /** @internal */
 export const TagTypeId: C.TagTypeId = Symbol.for("effect/Context/Tag") as C.TagTypeId
@@ -56,6 +56,13 @@ export const TagProto: C.Tag<unknown, unknown> = {
 }
 
 const tagRegistry = globalValue("effect/Context/Tag/tagRegistry", () => new Map<any, C.Tag<any, any>>())
+
+// for deno
+declare global {
+  interface ErrorConstructor {
+    stackTraceLimit: number
+  }
+}
 
 /** @internal */
 export const makeTag = <Identifier, Service = Identifier>(identifier?: unknown): C.Tag<Identifier, Service> => {

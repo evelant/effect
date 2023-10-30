@@ -1,35 +1,35 @@
 /**
  * @since 2.0.0
  */
-import type * as Cause from "./Cause"
-import type * as Channel from "./Channel"
-import type * as Chunk from "./Chunk"
-import type * as Context from "./Context"
-import type * as Deferred from "./Deferred"
-import type * as Duration from "./Duration"
-import type * as Effect from "./Effect"
-import type * as Either from "./Either"
-import type * as Exit from "./Exit"
-import type { LazyArg } from "./Function"
-import type * as GroupBy from "./GroupBy"
-import type { TypeLambda } from "./HKT"
-import * as _groupBy from "./internal/groupBy"
-import * as internal from "./internal/stream"
-import type * as Layer from "./Layer"
-import type * as Option from "./Option"
-import type * as Order from "./Order"
-import type { Pipeable } from "./Pipeable"
-import type { Predicate, Refinement } from "./Predicate"
-import type * as PubSub from "./PubSub"
-import type * as Queue from "./Queue"
-import type * as Schedule from "./Schedule"
-import type * as Scope from "./Scope"
-import type * as Sink from "./Sink"
-import type * as Emit from "./StreamEmit"
-import type * as HaltStrategy from "./StreamHaltStrategy"
-import type * as Take from "./Take"
-import type * as Tracer from "./Tracer"
-import type * as Unify from "./Unify"
+import type * as Cause from "./Cause.ts"
+import type * as Channel from "./Channel.ts"
+import type * as Chunk from "./Chunk.ts"
+import type * as Context from "./Context.ts"
+import type * as Deferred from "./Deferred.ts"
+import type * as Duration from "./Duration.ts"
+import type * as Effect from "./Effect.ts"
+import type * as Either from "./Either.ts"
+import type * as Exit from "./Exit.ts"
+import type { LazyArg } from "./Function.ts"
+import type * as GroupBy from "./GroupBy.ts"
+import type { TypeLambda } from "./HKT.ts"
+import * as _groupBy from "./internal/groupBy.ts"
+import * as internal from "./internal/stream.ts"
+import type * as Layer from "./Layer.ts"
+import type * as Option from "./Option.ts"
+import type * as Order from "./Order.ts"
+import type { Pipeable } from "./Pipeable.ts"
+import type { Predicate, Refinement } from "./Predicate.ts"
+import type * as PubSub from "./PubSub.ts"
+import type * as Queue from "./Queue.ts"
+import type * as Schedule from "./Schedule.ts"
+import type * as Scope from "./Scope.ts"
+import type * as Sink from "./Sink.ts"
+import type * as Emit from "./StreamEmit.ts"
+import type * as HaltStrategy from "./StreamHaltStrategy.ts"
+import type * as Take from "./Take.ts"
+import type * as Tracer from "./Tracer.ts"
+import type * as Unify from "./Unify.ts"
 
 /**
  * @since 2.0.0
@@ -89,7 +89,7 @@ export interface StreamUnifyBlacklist extends Effect.EffectUnifyBlacklist {
  * @since 2.0.0
  * @category models
  */
-declare module "./Effect" {
+declare module "./Effect.ts" {
   interface Effect<R, E, A> extends Stream<R, E, A> {}
   interface EffectUnifyBlacklist {
     Stream?: true
@@ -1661,9 +1661,9 @@ export const groupBy: {
  * stream of words:
  *
  * ```ts
- * import * as GroupBy from "./GroupBy"
- * import * as Stream from "./Stream"
- * import { pipe } from "./Function"
+ * import * as GroupBy from "./GroupBy.ts"
+ * import * as Stream from "./Stream.ts"
+ * import { pipe } from "./Function.ts"
  *
  * pipe(
  *   Stream.fromIterable(["hello", "world", "hi", "holla"]),
@@ -3361,8 +3361,8 @@ export const scoped: <R, E, A>(effect: Effect.Effect<R, E, A>) => Stream<Exclude
  * Emits a sliding window of `n` elements.
  *
  * ```ts
- * import * as Stream from "./Stream"
- * import { pipe } from "./Function"
+ * import * as Stream from "./Stream.ts"
+ * import { pipe } from "./Function.ts"
  *
  * pipe(
  *   Stream.make(1, 2, 3, 4),
@@ -3425,8 +3425,8 @@ export const someOrFail: {
  * Splits elements based on a predicate.
  *
  * ```ts
- * import * as Stream from "./Stream"
- * import { pipe } from "./Function"
+ * import * as Stream from "./Stream.ts"
+ * import { pipe } from "./Function.ts"
  *
  * pipe(
  *   Stream.range(1, 10),

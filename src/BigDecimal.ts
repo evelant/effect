@@ -14,15 +14,15 @@
  * @since 2.0.0
  */
 
-import * as Equal from "./Equal"
-import * as equivalence from "./Equivalence"
-import { dual, pipe } from "./Function"
-import * as Hash from "./Hash"
-import { type Inspectable, NodeInspectSymbol } from "./Inspectable"
-import * as Option from "./Option"
-import * as order from "./Order"
-import type { Ordering } from "./Ordering"
-import { type Pipeable, pipeArguments } from "./Pipeable"
+import * as Equal from "./Equal.ts"
+import * as equivalence from "./Equivalence.ts"
+import { dual, pipe } from "./Function.ts"
+import * as Hash from "./Hash.ts"
+import { type Inspectable, NodeInspectSymbol } from "./Inspectable.ts"
+import * as Option from "./Option.ts"
+import * as order from "./Order.ts"
+import type { Ordering } from "./Ordering.ts"
+import { type Pipeable, pipeArguments } from "./Pipeable.ts"
 
 const DEFAULT_PRECISION = 100
 

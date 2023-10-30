@@ -1,4 +1,4 @@
-import { deepStrictEqual } from "effect-test/util"
+import { deepStrictEqual, equalByValue } from "effect-test/util.ts"
 import * as Equal from "effect/Equal"
 import { pipe } from "effect/Function"
 import * as Hash from "effect/Hash"
@@ -216,7 +216,7 @@ describe.concurrent("HashSet", () => {
   })
 
   it("pipe", () => {
-    expect(HashSet.empty<string>().pipe(HashSet.add("value"))).toEqual(HashSet.make("value"))
+    equalByValue(HashSet.empty<string>().pipe(HashSet.add("value")), HashSet.make("value"))
   })
 
   it("isHashSet", () => {

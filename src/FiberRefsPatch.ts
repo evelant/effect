@@ -1,10 +1,10 @@
 /**
  * @since 2.0.0
  */
-import type * as FiberId from "./FiberId"
-import type * as FiberRef from "./FiberRef"
-import type * as FiberRefs from "./FiberRefs"
-import * as internal from "./internal/fiberRefs/patch"
+import type * as FiberId from "./FiberId.ts"
+import type * as FiberRef from "./FiberRef.ts"
+import type * as FiberRefs from "./FiberRefs.ts"
+import * as internal from "./internal/fiberRefs/patch.ts"
 
 /**
  * A `FiberRefsPatch` captures the changes in `FiberRef` values made by a single

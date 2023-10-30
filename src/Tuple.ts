@@ -3,10 +3,10 @@
  *
  * @since 2.0.0
  */
-import * as Equivalence from "./Equivalence"
-import { dual } from "./Function"
-import type { TypeLambda } from "./HKT"
-import * as order from "./Order"
+import * as Equivalence from "./Equivalence.ts"
+import { dual } from "./Function.ts"
+import type { TypeLambda } from "./HKT.ts"
+import * as order from "./Order.ts"
 
 /**
  * @category type lambdas

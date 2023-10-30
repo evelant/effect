@@ -1,10 +1,10 @@
-import type * as Cause from "../../Cause"
-import * as Chunk from "../../Chunk"
-import * as Effect from "../../Effect"
-import * as Option from "../../Option"
-import * as Queue from "../../Queue"
-import type * as Take from "../../Take"
-import * as take from "../take"
+import type * as Cause from "../../Cause.ts"
+import * as Chunk from "../../Chunk.ts"
+import * as Effect from "../../Effect.ts"
+import * as Option from "../../Option.ts"
+import * as Queue from "../../Queue.ts"
+import type * as Take from "../../Take.ts"
+import * as take from "../take.ts"
 
 /** @internal */
 export interface Pull<R, E, A> extends Effect.Effect<R, Option.Option<E>, Chunk.Chunk<A>> {}

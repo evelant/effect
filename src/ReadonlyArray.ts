@@ -4,19 +4,19 @@
  * @since 2.0.0
  */
 
-import type { Either } from "./Either"
-import * as E from "./Either"
-import * as Equal from "./Equal"
-import * as Equivalence from "./Equivalence"
-import { dual, identity } from "./Function"
-import type { LazyArg } from "./Function"
-import type { TypeLambda } from "./HKT"
-import * as readonlyArray from "./internal/ReadonlyArray"
-import type { Option } from "./Option"
-import * as O from "./Option"
-import * as Order from "./Order"
-import type { Predicate, Refinement } from "./Predicate"
-import * as RR from "./ReadonlyRecord"
+import type { Either } from "./Either.ts"
+import * as E from "./Either.ts"
+import * as Equal from "./Equal.ts"
+import * as Equivalence from "./Equivalence.ts"
+import { dual, identity } from "./Function.ts"
+import type { LazyArg } from "./Function.ts"
+import type { TypeLambda } from "./HKT.ts"
+import * as readonlyArray from "./internal/ReadonlyArray.ts"
+import type { Option } from "./Option.ts"
+import * as O from "./Option.ts"
+import * as Order from "./Order.ts"
+import type { Predicate, Refinement } from "./Predicate.ts"
+import * as RR from "./ReadonlyRecord.ts"
 
 /**
  * @category type lambdas

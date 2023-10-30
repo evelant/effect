@@ -1,11 +1,11 @@
 /**
  * @since 2.0.0
  */
-import type * as Cause from "./Cause"
-import type * as Chunk from "./Chunk"
-import type * as Effect from "./Effect"
-import type * as Exit from "./Exit"
-import type * as Option from "./Option"
+import type * as Cause from "./Cause.ts"
+import type * as Chunk from "./Chunk.ts"
+import type * as Effect from "./Effect.ts"
+import type * as Exit from "./Exit.ts"
+import type * as Option from "./Option.ts"
 
 /**
  * An `Emit<R, E, A, B>` represents an asynchronous callback that can be

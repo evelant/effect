@@ -1,7 +1,7 @@
-import type { RedBlackTreeImpl } from "../../internal/RedBlackTree"
-import type * as Node from "../../internal/RedBlackTree/node"
-import * as Option from "../../Option"
-import type * as RBT from "../../RedBlackTree"
+import type { RedBlackTreeImpl } from "../../internal/RedBlackTree.ts"
+import type * as Node from "../../internal/RedBlackTree/node.ts"
+import * as Option from "../../Option.ts"
+import type * as RBT from "../../RedBlackTree.ts"
 
 /** @internal */
 export const Direction = {

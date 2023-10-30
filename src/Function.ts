@@ -1,7 +1,7 @@
 /**
  * @since 2.0.0
  */
-import type { TypeLambda } from "./HKT"
+import type { TypeLambda } from "./HKT.ts"
 
 /**
  * @category type lambdas

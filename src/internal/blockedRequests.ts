@@ -1,13 +1,13 @@
-import type * as Deferred from "../Deferred"
-import * as Either from "../Either"
-import * as Equal from "../Equal"
-import type { FiberId } from "../FiberId"
-import * as HashMap from "../HashMap"
-import * as List from "../List"
-import * as Option from "../Option"
-import type * as Request from "../Request"
-import type * as RequestBlock from "../RequestBlock"
-import type * as RequestResolver from "../RequestResolver"
+import type * as Deferred from "../Deferred.ts"
+import * as Either from "../Either.ts"
+import * as Equal from "../Equal.ts"
+import type { FiberId } from "../FiberId.ts"
+import * as HashMap from "../HashMap.ts"
+import * as List from "../List.ts"
+import * as Option from "../Option.ts"
+import type * as Request from "../Request.ts"
+import type * as RequestBlock from "../RequestBlock.ts"
+import type * as RequestResolver from "../RequestResolver.ts"
 
 /** @internal */
 export const empty: RequestBlock.RequestBlock<never> = {

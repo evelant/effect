@@ -1,10 +1,10 @@
 /**
  * @since 2.0.0
  */
-import type * as Effect from "./Effect"
-import * as internal from "./internal/ref"
-import type * as Option from "./Option"
-import type { Pipeable } from "./Pipeable"
+import type * as Effect from "./Effect.ts"
+import * as internal from "./internal/ref.ts"
+import type * as Option from "./Option.ts"
+import type { Pipeable } from "./Pipeable.ts"
 
 /**
  * @since 2.0.0

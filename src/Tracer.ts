@@ -1,13 +1,13 @@
 /**
  * @since 2.0.0
  */
-import type * as Context from "./Context"
-import type * as Effect from "./Effect"
-import type * as Exit from "./Exit"
-import type * as Fiber from "./Fiber"
-import * as defaultServices from "./internal/defaultServices"
-import * as internal from "./internal/tracer"
-import type * as Option from "./Option"
+import type * as Context from "./Context.ts"
+import type * as Effect from "./Effect.ts"
+import type * as Exit from "./Exit.ts"
+import type * as Fiber from "./Fiber.ts"
+import * as defaultServices from "./internal/defaultServices.ts"
+import * as internal from "./internal/tracer.ts"
+import type * as Option from "./Option.ts"
 
 /**
  * @since 2.0.0

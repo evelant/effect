@@ -1,22 +1,22 @@
 /**
  * @since 2.0.0
  */
-import type * as Data from "./Data"
-import type { Either } from "./Either"
-import * as Equal from "./Equal"
-import * as Equivalence from "./Equivalence"
-import type { LazyArg } from "./Function"
-import { constNull, constUndefined, dual, identity } from "./Function"
-import type { TypeLambda } from "./HKT"
-import type { Inspectable } from "./Inspectable"
-import * as either from "./internal/Either"
-import * as option from "./internal/Option"
-import type { Order } from "./Order"
-import * as order from "./Order"
-import type { Pipeable } from "./Pipeable"
-import type { Predicate, Refinement } from "./Predicate"
-import type * as Unify from "./Unify"
-import * as Gen from "./Utils"
+import type * as Data from "./Data.ts"
+import type { Either } from "./Either.ts"
+import * as Equal from "./Equal.ts"
+import * as Equivalence from "./Equivalence.ts"
+import type { LazyArg } from "./Function.ts"
+import { constNull, constUndefined, dual, identity } from "./Function.ts"
+import type { TypeLambda } from "./HKT.ts"
+import type { Inspectable } from "./Inspectable.ts"
+import * as either from "./internal/Either.ts"
+import * as option from "./internal/Option.ts"
+import type { Order } from "./Order.ts"
+import * as order from "./Order.ts"
+import type { Pipeable } from "./Pipeable.ts"
+import type { Predicate, Refinement } from "./Predicate.ts"
+import type * as Unify from "./Unify.ts"
+import * as Gen from "./Utils.ts"
 
 /**
  * @category models

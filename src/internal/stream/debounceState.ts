@@ -1,6 +1,6 @@
-import type * as Chunk from "../../Chunk"
-import type * as Fiber from "../../Fiber"
-import type * as HandoffSignal from "./handoffSignal"
+import type * as Chunk from "../../Chunk.ts"
+import type * as Fiber from "../../Fiber.ts"
+import type * as HandoffSignal from "./handoffSignal.ts"
 
 /** @internal */
 export type DebounceState<E, A> = NotStarted | Previous<A> | Current<E, A>

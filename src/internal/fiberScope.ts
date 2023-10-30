@@ -1,9 +1,9 @@
-import * as FiberId from "../FiberId"
-import { globalValue } from "../GlobalValue"
-import * as FiberMessage from "../internal/fiberMessage"
-import type * as FiberRuntime from "../internal/fiberRuntime"
-import * as _runtimeFlags from "../internal/runtimeFlags"
-import type * as RuntimeFlags from "../RuntimeFlags"
+import * as FiberId from "../FiberId.ts"
+import { globalValue } from "../GlobalValue.ts"
+import * as FiberMessage from "../internal/fiberMessage.ts"
+import type * as FiberRuntime from "../internal/fiberRuntime.ts"
+import * as _runtimeFlags from "../internal/runtimeFlags.ts"
+import type * as RuntimeFlags from "../RuntimeFlags.ts"
 
 /** @internal */
 const FiberScopeSymbolKey = "effect/FiberScope"

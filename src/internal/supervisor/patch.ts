@@ -1,10 +1,10 @@
-import * as Chunk from "../../Chunk"
-import * as Differ from "../../Differ"
-import * as Equal from "../../Equal"
-import { pipe } from "../../Function"
-import * as HashSet from "../../HashSet"
-import * as supervisor from "../../internal/supervisor"
-import type * as Supervisor from "../../Supervisor"
+import * as Chunk from "../../Chunk.ts"
+import * as Differ from "../../Differ.ts"
+import * as Equal from "../../Equal.ts"
+import { pipe } from "../../Function.ts"
+import * as HashSet from "../../HashSet.ts"
+import * as supervisor from "../../internal/supervisor.ts"
+import type * as Supervisor from "../../Supervisor.ts"
 
 /** @internal */
 export type SupervisorPatch = Empty | AddSupervisor | RemoveSupervisor | AndThen

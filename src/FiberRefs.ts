@@ -1,14 +1,14 @@
 /**
  * @since 2.0.0
  */
-import type * as Effect from "./Effect"
-import type * as FiberId from "./FiberId"
-import type * as FiberRef from "./FiberRef"
-import type * as HashSet from "./HashSet"
-import * as internal from "./internal/fiberRefs"
-import type * as Option from "./Option"
-import type { Pipeable } from "./Pipeable"
-import type * as Arr from "./ReadonlyArray"
+import type * as Effect from "./Effect.ts"
+import type * as FiberId from "./FiberId.ts"
+import type * as FiberRef from "./FiberRef.ts"
+import type * as HashSet from "./HashSet.ts"
+import * as internal from "./internal/fiberRefs.ts"
+import type * as Option from "./Option.ts"
+import type { Pipeable } from "./Pipeable.ts"
+import type * as Arr from "./ReadonlyArray.ts"
 
 /**
  * @since 2.0.0

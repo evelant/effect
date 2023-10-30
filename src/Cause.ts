@@ -21,17 +21,17 @@
  *
  * @since 2.0.0
  */
-import type * as Chunk from "./Chunk"
-import type * as Either from "./Either"
-import type * as Equal from "./Equal"
-import type * as FiberId from "./FiberId"
-import type * as HashSet from "./HashSet"
-import type { Inspectable } from "./Inspectable"
-import * as internal from "./internal/cause"
-import { originalInstance } from "./internal/core"
-import type * as Option from "./Option"
-import type { Pipeable } from "./Pipeable"
-import type { Predicate } from "./Predicate"
+import type * as Chunk from "./Chunk.ts"
+import type * as Either from "./Either.ts"
+import type * as Equal from "./Equal.ts"
+import type * as FiberId from "./FiberId.ts"
+import type * as HashSet from "./HashSet.ts"
+import type { Inspectable } from "./Inspectable.ts"
+import * as internal from "./internal/cause.ts"
+import { originalInstance } from "./internal/core.ts"
+import type * as Option from "./Option.ts"
+import type { Pipeable } from "./Pipeable.ts"
+import type { Predicate } from "./Predicate.ts"
 
 /**
  * @since 2.0.0

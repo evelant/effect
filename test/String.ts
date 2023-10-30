@@ -1,7 +1,8 @@
-import { deepStrictEqual } from "effect-test/util"
+import { deepStrictEqual } from "effect-test/util.ts"
 import { pipe } from "effect/Function"
 import * as Option from "effect/Option"
 import * as Order from "effect/Order"
+import * as ReadonlyArray from "effect/ReadonlyArray"
 import * as S from "effect/String"
 import { describe, expect, it } from "vitest"
 
@@ -157,7 +158,7 @@ describe.concurrent("String", () => {
   })
 
   it("match", () => {
-    expect(pipe("a", S.match(/a/))).toStrictEqual(Option.some(expect.arrayContaining(["a"])))
+    expect(pipe("a", S.match(/a/), Option.filter(ReadonlyArray.contains("a")), Option.isSome)).toBeTruthy()
     expect(pipe("a", S.match(/b/))).toStrictEqual(Option.none())
   })
 

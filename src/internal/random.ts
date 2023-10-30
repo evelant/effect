@@ -1,10 +1,10 @@
-import * as Chunk from "../Chunk"
-import * as Context from "../Context"
-import type * as Effect from "../Effect"
-import { pipe } from "../Function"
-import * as core from "../internal/core"
-import type * as Random from "../Random"
-import * as PCGRandom from "../Utils"
+import * as Chunk from "../Chunk.ts"
+import * as Context from "../Context.ts"
+import type * as Effect from "../Effect.ts"
+import { pipe } from "../Function.ts"
+import * as core from "../internal/core.ts"
+import type * as Random from "../Random.ts"
+import * as PCGRandom from "../Utils.ts"
 
 /** @internal */
 const RandomSymbolKey = "effect/Random"

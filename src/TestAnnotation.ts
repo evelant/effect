@@ -1,16 +1,16 @@
 /**
  * @since 2.0.0
  */
-import * as Chunk from "./Chunk"
-import * as Context from "./Context"
-import * as Either from "./Either"
-import * as Equal from "./Equal"
-import type * as Fiber from "./Fiber"
-import { pipe } from "./Function"
-import * as Hash from "./Hash"
-import * as HashSet from "./HashSet"
-import type * as MutableRef from "./MutableRef"
-import type * as SortedSet from "./SortedSet"
+import * as Chunk from "./Chunk.ts"
+import * as Context from "./Context.ts"
+import * as Either from "./Either.ts"
+import * as Equal from "./Equal.ts"
+import type * as Fiber from "./Fiber.ts"
+import { pipe } from "./Function.ts"
+import * as Hash from "./Hash.ts"
+import * as HashSet from "./HashSet.ts"
+import type * as MutableRef from "./MutableRef.ts"
+import type * as SortedSet from "./SortedSet.ts"
 
 /** @internal */
 const TestAnnotationSymbolKey = "effect/TestAnnotation"

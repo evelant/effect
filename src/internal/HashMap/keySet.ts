@@ -1,6 +1,6 @@
-import type { HashMap } from "../../HashMap"
-import type { HashSet } from "../../HashSet"
-import { makeImpl } from "../../internal/HashSet"
+import type { HashMap } from "../../HashMap.ts"
+import type { HashSet } from "../../HashSet.ts"
+import { makeImpl } from "../../internal/HashSet.ts"
 
 /** @internal */
 export function keySet<K, V>(self: HashMap<K, V>): HashSet<K> {

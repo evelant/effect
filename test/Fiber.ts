@@ -1,5 +1,5 @@
-import * as it from "effect-test/utils/extend"
-import { withLatch } from "effect-test/utils/latch"
+import * as it from "effect-test/utils/extend.ts"
+import { withLatch } from "effect-test/utils/latch.ts"
 import * as Chunk from "effect/Chunk"
 import * as Deferred from "effect/Deferred"
 import * as Effect from "effect/Effect"

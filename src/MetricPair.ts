@@ -1,11 +1,11 @@
 /**
  * @since 2.0.0
  */
-import * as internal from "./internal/metric/pair"
-import type * as MetricKey from "./MetricKey"
-import type * as MetricKeyType from "./MetricKeyType"
-import type * as MetricState from "./MetricState"
-import type { Pipeable } from "./Pipeable"
+import * as internal from "./internal/metric/pair.ts"
+import type * as MetricKey from "./MetricKey.ts"
+import type * as MetricKeyType from "./MetricKeyType.ts"
+import type * as MetricState from "./MetricState.ts"
+import type { Pipeable } from "./Pipeable.ts"
 
 /**
  * @since 2.0.0

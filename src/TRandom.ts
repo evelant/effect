@@ -1,12 +1,12 @@
 /**
  * @since 2.0.0
  */
-import type * as Context from "./Context"
-import * as internal from "./internal/stm/tRandom"
-import type * as Layer from "./Layer"
-import type * as STM from "./STM"
-import type * as TRef from "./TRef"
-import type * as Random from "./Utils"
+import type * as Context from "./Context.ts"
+import * as internal from "./internal/stm/tRandom.ts"
+import type * as Layer from "./Layer.ts"
+import type * as STM from "./STM.ts"
+import type * as TRef from "./TRef.ts"
+import type * as Random from "./Utils.ts"
 
 /**
  * @since 2.0.0
