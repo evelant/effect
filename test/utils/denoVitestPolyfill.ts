@@ -48,3 +48,4 @@ export const vi = new Proxy({}, {
 
 export type SuiteAPI = any
 export type TestAPI<_S> = any
+export type TestOptions = any
