@@ -1,4 +1,4 @@
-name: type check
+name: check/dtslint
 
 on:
   push:
@@ -26,3 +26,4 @@ jobs:
           cache: pnpm
       - run: pnpm install
       - run: pnpm check
+      - run: pnpm dtslint
