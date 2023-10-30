@@ -18,15 +18,19 @@ jobs:
           - label: Node
             environment: node
             node: 18
-            shard: 1/3
+            shard: 1/4
           - label: Node
             environment: node
             node: 18
-            shard: 2/3
+            shard: 2/4
           - label: Node
             environment: node
             node: 18
-            shard: 3/3
+            shard: 3/4
+          - label: Node
+            environment: node
+            node: 18
+            shard: 4/4
           - label: Browser
             environment: jsdom
             node: 18
