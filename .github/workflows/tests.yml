@@ -1,0 +1,47 @@
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: ${{ matrix.label }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - label: Node
+            environment: node
+            node: 18
+          - label: Browser
+            environment: jsdom
+            node: 18
+          - label: Edge
+            environment: edge-runtime
+            node: 18
+          - label: Bun
+            environment: node
+            node: 18
+            bun: canary
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+      - name: Install node
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node }}
+          cache: pnpm
+      - name: Install bun
+        if: matrix.bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: ${{ matrix.bun }}
+      - run: pnpm install
+      - run: ${{ matrix.bun && 'bun' || 'pnpm' }} vitest --environment ${{ matrix.environment }}
