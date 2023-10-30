@@ -1,34 +1,26 @@
-name: build
+name: Build
 
 on:
-  push:
-    branches: [main]
+  workflow_dispatch:
   pull_request:
     branches: [main]
+  push:
+    branches: [main]
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build:
+    name: Build
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [18]
-
-    steps:
+    steps: 
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - name: Install pnpm
-        uses: pnpm/action-setup@v2
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node-version }}
-          cache: pnpm
-      - run: pnpm install
+      - name: Install dependencies
+        uses: ./.github/actions/setup
       - run: pnpm build
       - run: pnpm circular
       - run: pnpm docgen

@@ -1,29 +1,32 @@
-name: check/dtslint
+name: Check
 
 on:
-  push:
-    branches: [main]
+  workflow_dispatch:
   pull_request:
     branches: [main]
-  workflow_dispatch:
+  push:
+    branches: [main]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
-  build:
+  lint:
+    name: Lint (.ts)
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [18]
-
-    steps:
+    steps: 
       - uses: actions/checkout@v3
-      - name: Install pnpm
-        uses: pnpm/action-setup@v2
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node-version }}
-          cache: pnpm
-      - run: pnpm install
+      - name: Install dependencies
+        uses: ./.github/actions/setup
       - run: pnpm check
+      - run: pnpm lint
+
+  dtslint:
+    name: Lint (.d.ts)
+    runs-on: ubuntu-latest
+    steps: 
+      - uses: actions/checkout@v3
+      - name: Install dependencies
+        uses: ./.github/actions/setup
       - run: pnpm dtslint
