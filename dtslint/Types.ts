@@ -1,4 +1,4 @@
-import type * as Types from "effect/Types"
+import type { Types } from "effect/Types"
 
 // $ExpectType { a: string; } & { b: number; }
 export type UnionToIntersection = Types.UnionToIntersection<{ a: string } | { b: number }>
