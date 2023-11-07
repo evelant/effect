@@ -121,3 +121,11 @@ export type MergeRight<K, H> = Simplify<
  * @category models
  */
 export type Concurrency = number | "unbounded" | "inherit"
+
+/**
+ * Avoid inference on a specific parameter
+ *
+ * @since 2.0.0
+ * @category models
+ */
+export type NoInfer<A> = [A][A extends any ? 0 : never]
